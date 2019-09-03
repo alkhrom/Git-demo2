@@ -13,10 +13,11 @@ Of course, had the entire Globe spoken English, there would have never been a ne
 
 ### Scripts and Planes
 
+## UTF-8 Encoding Algorithm
 
-
+In UTF-8 the first byte begi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDE3NDkwMTAsLTIwMTY2ODg4ODksMT
-QyMjEwNzQ5LDk4ODgyNTk2NCwtMTU4ODc5NjY2XX0=
+eyJoaXN0b3J5IjpbLTExNzY3MDQ1NywtMjAxNjY4ODg4OSwxND
+IyMTA3NDksOTg4ODI1OTY0LC0xNTg4Nzk2NjZdfQ==
 -->
