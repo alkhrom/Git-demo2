@@ -11,10 +11,12 @@ Of course, had the entire Globe spoken English, there would have never been a ne
 
 ### Code Points And Code Units
 
+### Scripts and Planes
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY2ODg4ODksMTQyMjEwNzQ5LDk4OD
-gyNTk2NCwtMTU4ODc5NjY2XX0=
+eyJoaXN0b3J5IjpbLTE0MDE3NDkwMTAsLTIwMTY2ODg4ODksMT
+QyMjEwNzQ5LDk4ODgyNTk2NCwtMTU4ODc5NjY2XX0=
 -->
