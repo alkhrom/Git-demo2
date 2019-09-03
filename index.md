@@ -23,10 +23,14 @@ Convert it into binary, which will take 11 bit.
 Split those bits into 5 on the left and 6 on the right.
 Start the first byte with a multi-byte mark of "110".
 Concatenate the left 5 bits to form the first byte.
-Start the second byte with a 
+Start the second byte with a "code continued" mark of "10"
+Concatenate the right 6 bits to obtain the send byte.
+Concatenate the two bytes.
+Example:
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDIyOTkyLC0yMDE2Njg4ODg5LDE0Mj
-IxMDc0OSw5ODg4MjU5NjQsLTE1ODg3OTY2Nl19
+eyJoaXN0b3J5IjpbLTE0NDIzMzk2NjMsLTIwMTY2ODg4ODksMT
+QyMjEwNzQ5LDk4ODgyNTk2NCwtMTU4ODc5NjY2XX0=
 -->
