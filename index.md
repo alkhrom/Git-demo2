@@ -16,14 +16,10 @@ Of course, had the entire Globe spoken English, there would have never been a ne
 ## UTF-8 Encoding Algorithm
 
  - If  a code point is below 128 (decimal), write to a UTF-8 byte "as is".
+**Example:** 
 
-Example: 
-
- - If a code point is above 128 (decimal) yet below 2048 (decimal), do:
-
-
-
- - Convert it into binary, which will take 11 bit. Split those bits
+ 1. If a code point is above 128 (decimal) yet below 2048 (decimal), do:
+ 2. Convert it into binary, which will take 11 bit. Split those bits
     into 5 on the left and 6 on the right. Start the first byte with a
     multi-byte mark of "**110**". Concatenate the left 5 bits to form
     the first byte. Start the second byte with a "code continued" mark
@@ -36,7 +32,7 @@ The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NzA0NDIwMyw5Mjk5NjQzMzQsLTIwMT
-Y2ODg4ODksMTQyMjEwNzQ5LDk4ODgyNTk2NCwtMTU4ODc5NjY2
-XX0=
+eyJoaXN0b3J5IjpbLTE1NDU4NTI5MzgsOTI5OTY0MzM0LC0yMD
+E2Njg4ODg5LDE0MjIxMDc0OSw5ODg4MjU5NjQsLTE1ODg3OTY2
+Nl19
 -->
