@@ -15,9 +15,9 @@ Of course, had the entire Globe spoken English, there would have never been a ne
 
 ## UTF-8 Encoding Algorithm
 
-A UTF-8 code unit begins with "110".
+If  a code point is be
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3MTk3MTYsLTIwMTY2ODg4ODksMTQyMj
-EwNzQ5LDk4ODgyNTk2NCwtMTU4ODc5NjY2XX0=
+eyJoaXN0b3J5IjpbMTE1NzkxMzk2MiwtMjAxNjY4ODg4OSwxND
+IyMTA3NDksOTg4ODI1OTY0LC0xNTg4Nzk2NjZdfQ==
 -->
