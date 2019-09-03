@@ -21,10 +21,11 @@ For example,
 If a code point is above 128 (decimal) yet below 2048 (decimal), do:
 Convert it into binary, which will take 11 bit.
 Split those bits into 5 on the left and 6 on the right.
-Start the first byte with 
+Start the first byte with a multi-byte mark of "110".
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3MTU1MjM1LC0yMDE2Njg4ODg5LDE0Mj
+eyJoaXN0b3J5IjpbNDI3MjE5NzQyLC0yMDE2Njg4ODg5LDE0Mj
 IxMDc0OSw5ODg4MjU5NjQsLTE1ODg3OTY2Nl19
 -->
