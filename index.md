@@ -1,3 +1,7 @@
 # Intro to Unicode for Dummy Programmers
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+Why Unicode?
+Of course, had the entire Globe spoken English, there would have never been a need for anything else but
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjgwMTc0ODM2XX0=
+-->
