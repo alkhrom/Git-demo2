@@ -6,11 +6,12 @@ Of course, had the entire Globe spoken English, there would have never been a ne
 
 ## Some Philosophy Behind Unicode
 
-![enter image description here](https://habrastorage.org/files/8d7/2ec/9c0/8d72ec9c07104b969e8bb6aab644c27a.png)
+![enter image description here](https://lh3.googleusercontent.com/driTrANKja0TwszTgvDmmmLzRCryfCI5TGAj11gkI_PfxbNG3JVqszY282WWRLYdndv4AZL68Q9Q)
 
 
 ### Code Points And Code Units
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4ODI1OTY0LC0xNTg4Nzk2NjZdfQ==
+eyJoaXN0b3J5IjpbMTQyMjEwNzQ5LDk4ODgyNTk2NCwtMTU4OD
+c5NjY2XX0=
 -->
