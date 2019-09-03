@@ -25,7 +25,7 @@ Of course, had the entire Globe spoken English, there would have never been a ne
 	4. Concatenate the left 5 bits to form the first byte. 
 	5. Start the second byte with a "code continued" mark of "**10**". 
 	6. Concatenate the right 6 bits to obtain the send byte. 
-7. Concatenate the two bytes.
+	7. Concatenate the two bytes.
 
 **Example:**
 The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or "10000 010110" (binary), which brings us directly to UTF-8 encoding of "**110**10000 **10**010110" or D096 (hex).
@@ -33,7 +33,7 @@ The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjY3ODMzNCwtNzc4NjM5OTksOTI5OT
-Y0MzM0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OSw5ODg4MjU5NjQs
-LTE1ODg3OTY2Nl19
+eyJoaXN0b3J5IjpbODE4Mzk5MzE4LC03Nzg2Mzk5OSw5Mjk5Nj
+QzMzQsLTIwMTY2ODg4ODksMTQyMjEwNzQ5LDk4ODgyNTk2NCwt
+MTU4ODc5NjY2XX0=
 -->
