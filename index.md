@@ -27,11 +27,11 @@ Start the second byte with a "code continued" mark of "10"
 Concatenate the right 6 bits to obtain the send byte.
 Concatenate the two bytes.
 Example:
-The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or 10000 01
+The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or "10000 010110" (binary).
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDAwMzQzMiwtMjAxNjY4ODg4OSwxND
+eyJoaXN0b3J5IjpbLTM5NTM3NDc3MCwtMjAxNjY4ODg4OSwxND
 IyMTA3NDksOTg4ODI1OTY0LC0xNTg4Nzk2NjZdfQ==
 -->
