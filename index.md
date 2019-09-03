@@ -1,9 +1,13 @@
 # Intro to Unicode for Dummy Programmers
 
-Why Unicode?
+## Why Unicode?
+
 Of course, had the entire Globe spoken English, there would have never been a need for anything else but the good old ASCII. However, as the Internet party
 
-Some Philosophy Behind Unicode
+## Some Philosophy Behind Unicode
+
+![enter image description here](https://habrastorage.org/files/8d7/2ec/9c0/8d72ec9c07104b969e8bb6aab644c27a.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjIyMjEzNF19
+eyJoaXN0b3J5IjpbLTE1ODg3OTY2Nl19
 -->
