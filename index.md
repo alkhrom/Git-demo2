@@ -16,7 +16,7 @@ Of course, had the entire Globe spoken English, there would have never been a ne
 ## UTF-8 Encoding Algorithm
 
 If  a code point is below 128 (decimal), write to a UTF-8 byte "as is".
-For example, 
+Example: 
 
 If a code point is above 128 (decimal) yet below 2048 (decimal), do:
 Convert it into binary, which will take 11 bit.
@@ -27,10 +27,10 @@ Start the second byte with a "code continued" mark of "10"
 Concatenate the right 6 bits to obtain the send byte.
 Concatenate the two bytes.
 Example:
-
+The code point for capital cyrillic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDIzMzk2NjMsLTIwMTY2ODg4ODksMT
-QyMjEwNzQ5LDk4ODgyNTk2NCwtMTU4ODc5NjY2XX0=
+eyJoaXN0b3J5IjpbLTY5ODE5NjUzNiwtMjAxNjY4ODg4OSwxND
+IyMTA3NDksOTg4ODI1OTY0LC0xNTg4Nzk2NjZdfQ==
 -->
