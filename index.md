@@ -15,13 +15,16 @@ Of course, had the entire Globe spoken English, there would have never been a ne
 
 ## UTF-8 Encoding Algorithm
 
-If  a code point is below 128 (decima, write to UTF-8 "as is".
+If  a code point is below 128 (decimal), write to UTF-8 "as is".
 For example, 
 
-If a code point is above 128 (decimal) yet below 2048, do:
+If a code point is above 128 (decimal) yet below 2048 (decimal), do:
+Convert is binary, which will take 11 bit.
+Split those bits into 5 on the left and 6 on the right.
+Start the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzQwNTAwOCwtMjAxNjY4ODg4OSwxND
+eyJoaXN0b3J5IjpbLTI1NDQ4NDkzNywtMjAxNjY4ODg4OSwxND
 IyMTA3NDksOTg4ODI1OTY0LC0xNTg4Nzk2NjZdfQ==
 -->
