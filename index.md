@@ -15,16 +15,13 @@ Of course, had the entire Globe spoken English, there would have never been a ne
 
 ## UTF-8 Encoding Algorithm
 
- - If  a code point is below 128 (decimal), write to a UTF-8 byte "as is".
+ 1. If  a code point is below 128 (decimal), write to a UTF-8 byte "as is".
 **Example:** 
 
- 1. If a code point is above 128 (decimal) yet below 2048 (decimal), do:
- 2. Convert it into binary, which will take 11 bit. Split those bits
-    into 5 on the left and 6 on the right. Start the first byte with a
-    multi-byte mark of "**110**". Concatenate the left 5 bits to form
-    the first byte. Start the second byte with a "code continued" mark
-    of "**10**" Concatenate the right 6 bits to obtain the send byte.
-    Concatenate the two bytes.
+If a code point is above 128 (decimal) yet below 2048 (decimal), do:
+Convert it into binary, which will take 11 bit. 
+Split those bits into 5 on the left and 6 on the right. 
+Start the first byte with a multi-byte mark of "**110**". Concatenate the left 5 bits to form the first byte. Start the second byte with a "code continued" mark of "**10**" Concatenate the right 6 bits to obtain the send byte. Concatenate the two bytes.
 
 **Example:**
 The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or "10000 010110" (binary), which brings us directly to UTF-8 encoding of "**110**10000 **10**010110" or D096 (hex).
@@ -32,7 +29,7 @@ The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDU4NTI5MzgsOTI5OTY0MzM0LC0yMD
-E2Njg4ODg5LDE0MjIxMDc0OSw5ODg4MjU5NjQsLTE1ODg3OTY2
-Nl19
+eyJoaXN0b3J5IjpbLTc3ODYzOTk5LDkyOTk2NDMzNCwtMjAxNj
+Y4ODg4OSwxNDIyMTA3NDksOTg4ODI1OTY0LC0xNTg4Nzk2NjZd
+fQ==
 -->
