@@ -8,6 +8,9 @@ Of course, had the entire Globe spoken English, there would have never been a ne
 
 ![enter image description here](https://habrastorage.org/files/8d7/2ec/9c0/8d72ec9c07104b969e8bb6aab644c27a.png)
 
+
+## Code Points And Code Units
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg3OTY2Nl19
+eyJoaXN0b3J5IjpbMTAwNDY4ODM5MywtMTU4ODc5NjY2XX0=
 -->
