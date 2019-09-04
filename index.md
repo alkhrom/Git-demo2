@@ -56,7 +56,7 @@ The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or 
 
 
 
-Function EncodeUTF8(s)
+`Function EncodeUTF8(s)
     Dim i, c, utfc, b1, b2, b3
     
     For i=1 to Len(s)
@@ -87,7 +87,7 @@ Function ToLong(intVal)
     Else
         ToLong = CLng(intVal)
     End If
-End Function
+End Function`
 
 
 
@@ -116,11 +116,11 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzcwMTAzOCw5MDkxMzk3MDgsLTcyMT
-g5MjgxOSwtODU2ODE5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5
-NjMwLC00MTg3NDA5NDIsLTQwMTMxNTk1NywxMjg3MDEzMDE4LD
-I4NDcxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4
-MSwyODM0MTg5NTQsOTg4OTA5ODk4LC0xNzc4NzA1MDgwLDIwMT
-kwMDA4NzgsMTA4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNTc2
-NF19
+eyJoaXN0b3J5IjpbLTIwNDQ3MjA4MjQsOTA5MTM5NzA4LC03Mj
+E4OTI4MTksLTg1NjgxOTA5NSwtMTI5NTcyOTQyNiwtMjExMTMz
+OTYzMCwtNDE4NzQwOTQyLC00MDEzMTU5NTcsMTI4NzAxMzAxOC
+wyODQ3MTMxNjMsMjA5MTEwNzc2MCw0NzAwODY2NTEsMjA3ODc4
+ODEsMjgzNDE4OTU0LDk4ODkwOTg5OCwtMTc3ODcwNTA4MCwyMD
+E5MDAwODc4LDEwODIyNDg5NzcsNzM3NTUwNDU5LDIwMzg2MTU3
+NjRdfQ==
 -->
