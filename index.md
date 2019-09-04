@@ -54,7 +54,7 @@ The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or 
 
 
 ### Code Implementation
-
+The code snippet below gives an example of what the code of a UTF-8 encoder may be:
 
 	Function EncodeUTF8(s)
 		Dim i, c, utfc, b1, b2, b3
@@ -85,11 +85,6 @@ The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or 
 		End  If
 	End  Function
 
-
-
-
-
-
 ## How To Do The Same In UTF-16 
 With UTF-16, simply write the code point of a character into two bytes "as is".
 > Although UTF-16 is a variable-width encoding, much like UTF-8, the minimum code unit width is "2" instead of "1".
@@ -112,11 +107,11 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODcwODcwOTksOTg4MTg3ODE5LDkwOT
-EzOTcwOCwtNzIxODkyODE5LC04NTY4MTkwOTUsLTEyOTU3Mjk0
-MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0MiwtNDAxMzE1OTU3LD
-EyODcwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3NjAsNDcwMDg2
-NjUxLDIwNzg3ODgxLDI4MzQxODk1NCw5ODg5MDk4OTgsLTE3Nz
-g3MDUwODAsMjAxOTAwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1
-OV19
+eyJoaXN0b3J5IjpbMzkyMzc0MjI5LDk4ODE4NzgxOSw5MDkxMz
+k3MDgsLTcyMTg5MjgxOSwtODU2ODE5MDk1LC0xMjk1NzI5NDI2
+LC0yMTExMzM5NjMwLC00MTg3NDA5NDIsLTQwMTMxNTk1NywxMj
+g3MDEzMDE4LDI4NDcxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1
+MSwyMDc4Nzg4MSwyODM0MTg5NTQsOTg4OTA5ODk4LC0xNzc4Nz
+A1MDgwLDIwMTkwMDA4NzgsMTA4MjI0ODk3Nyw3Mzc1NTA0NTld
+fQ==
 -->
