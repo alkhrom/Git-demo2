@@ -15,7 +15,7 @@ Unicode in itself is nothing else than a vast lookup table to map each and every
 ![enter image description here](https://lh3.googleusercontent.com/i4KF4qMjV5-Q2Hp-lNxEdfEzD49m9Wx-aQl0Ug8nGx1s1t2sWh4Fl1bVQtb8O8zDGHdeyI31V90R)
 
 
-As soon as the code point for a character is found, encoding comes into action to build an in-memory representation for the code point according to the encoding scheme rules (their may be, and actually are, different encoding schemes, mostly due to historical reasons).
+As soon as the code point for a character is found, *encoding* comes into action to build an in-memory representation for the code point according to the encoding scheme rules (there may be, and actually are, different encoding schemes, mostly due to historical reasons).
 
 
 
@@ -97,7 +97,7 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzg4MTYzNywyMDc4Nzg4MSwyODM0MT
+eyJoaXN0b3J5IjpbMjA0NDczMjk1MSwyMDc4Nzg4MSwyODM0MT
 g5NTQsOTg4OTA5ODk4LC0xNzc4NzA1MDgwLDIwMTkwMDA4Nzgs
 MTA4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNTc2NCw4MTgzOT
 kzMTgsLTc3ODYzOTk5LDkyOTk2NDMzNCwtMjAxNjY4ODg4OSwx
