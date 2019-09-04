@@ -2,6 +2,7 @@
 
 ## Why Unicode?
 
+Unicode has come as a solution to the problem of how to ensure consistent display of the vast variety of symbols (e.g. alphabet 
 Of course, had the entire Globe spoken English, there would have never been a need for anything else but the good old ASCII. However, as the Internet party
 
 ## Some Philosophy Behind Unicode
@@ -87,8 +88,8 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTAwMDg3OCwxMDgyMjQ4OTc3LDczNz
-U1MDQ1OSwyMDM4NjE1NzY0LDgxODM5OTMxOCwtNzc4NjM5OTks
-OTI5OTY0MzM0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OSw5ODg4Mj
-U5NjQsLTE1ODg3OTY2Nl19
+eyJoaXN0b3J5IjpbMzA4MTczNzQ3LDIwMTkwMDA4NzgsMTA4Mj
+I0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNTc2NCw4MTgzOTkzMTgs
+LTc3ODYzOTk5LDkyOTk2NDMzNCwtMjAxNjY4ODg4OSwxNDIyMT
+A3NDksOTg4ODI1OTY0LC0xNTg4Nzk2NjZdfQ==
 -->
