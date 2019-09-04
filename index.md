@@ -7,7 +7,7 @@ Unicode has come as a solution to the problem of how to ensure consistent displa
 
 
 ## Some Philosophy Behind Unicode
-The idea underlying the Unicode concept is to map characters as idealistic platonic entities, each and every known one, to "magic numbers", or code points, which then will be somehow encoded to obtain an in-memory representatio
+The idea underlying the Unicode concept is to map each and every character in the Unicode character set  as idealistic platonic entities, each and every known one, to "magic numbers", or *code points*, which then will be somehow *encoded* to obtain an in-memory representation of the character.
 ![enter image description here](https://lh3.googleusercontent.com/driTrANKja0TwszTgvDmmmLzRCryfCI5TGAj11gkI_PfxbNG3JVqszY282WWRLYdndv4AZL68Q9Q)
 
 
@@ -89,7 +89,7 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzODQxMDU1LDk4ODkwOTg5OCwtMTc3OD
+eyJoaXN0b3J5IjpbMjgzNDE4OTU0LDk4ODkwOTg5OCwtMTc3OD
 cwNTA4MCwyMDE5MDAwODc4LDEwODIyNDg5NzcsNzM3NTUwNDU5
 LDIwMzg2MTU3NjQsODE4Mzk5MzE4LC03Nzg2Mzk5OSw5Mjk5Nj
 QzMzQsLTIwMTY2ODg4ODksMTQyMjEwNzQ5LDk4ODgyNTk2NCwt
