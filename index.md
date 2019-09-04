@@ -32,13 +32,13 @@ The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or 
 
 ### Implementation
 
-Function EncodeUTF8(s) Dim i, c, utfc, b1, b2, b3 For i=1  to  Len(s) c = ToLong(AscW(Mid(s,i,1))) If c < 128  Then utfc = chr( c) ElseIf c < 2048  Then b1 = c Mod &h40 b2 = (c - b1) / &h40 utfc = chr(&hC0 + b2) & chr(&h80 + b1) ElseIf c < 65536  And (c < 55296  Or c > 57343) Then b1 = c Mod &h40 b2 = ((c - b1) / &h40) Mod &h40 b3 = (c - b1 - (&h40 * b2)) / &h1000 utfc = chr(&hE0 + b3) & chr(&h80 + b2) & chr(&h80 + b1) Else  ' Младший или старший суррогат UTF-16 utfc = Chr(&hEF) & Chr(&hBF) & Chr(&hBD) End  If EncodeUTF8 = EncodeUTF8 + utfc Next  End  Function  Function ToLong(intVal) If intVal < 0  Then ToLong = CLng(intVal) + &H10000 Else ToLong = CLng(intVal) End  If  End  Function
+    Function EncodeUTF8(s) Dim i, c, utfc, b1, b2, b3 For i=1  to  Len(s) c = ToLong(AscW(Mid(s,i,1))) If c < 128  Then utfc = chr( c) ElseIf c < 2048  Then b1 = c Mod &h40 b2 = (c - b1) / &h40 utfc = chr(&hC0 + b2) & chr(&h80 + b1) ElseIf c < 65536  And (c < 55296  Or c > 57343) Then b1 = c Mod &h40 b2 = ((c - b1) / &h40) Mod &h40 b3 = (c - b1 - (&h40 * b2)) / &h1000 utfc = chr(&hE0 + b3) & chr(&h80 + b2) & chr(&h80 + b1) Else  ' Младший или старший суррогат UTF-16 utfc = Chr(&hEF) & Chr(&hBF) & Chr(&hBD) End  If EncodeUTF8 = EncodeUTF8 + utfc Next  End  Function  Function ToLong(intVal) If intVal < 0  Then ToLong = CLng(intVal) + &H10000 Else ToLong = CLng(intVal) End  If  End  Function
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwOTgwMTc2LDgxODM5OTMxOCwtNzc4Nj
+eyJoaXN0b3J5IjpbLTgwNTAyMTkyLDgxODM5OTMxOCwtNzc4Nj
 M5OTksOTI5OTY0MzM0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OSw5
 ODg4MjU5NjQsLTE1ODg3OTY2Nl19
 -->
