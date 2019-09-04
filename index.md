@@ -23,7 +23,7 @@ UTF-8 is a variable-width in-memory representation of Unicode code points. Use o
 0x00000800 — 0x0000FFFF: 1110xxxx 10xxxxxx 10xxxxxx
 0x00010000 — 0x001FFFFF: 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
 where:
--  "110" is a a multi-byte mark.
+-  "110" is a a multi-byte mark
 -  "10" is a "code continued" mark
 
 
@@ -41,7 +41,7 @@ where:
 
 The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or "10000 010110" (binary), which brings us directly to UTF-8 encoding of "**110**10000 **10**010110" or D096 (hex).
 
-### CImplementation
+### Code Implementation
 The code snippet below shows an example of what UTF-8 encoding implementation might look like.
 `Function EncodeUTF8(s)`
     
@@ -90,7 +90,7 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDM5OTc4Nyw0NzAwODY2NTEsMjA3OD
+eyJoaXN0b3J5IjpbMTI2MzE5NDAwNyw0NzAwODY2NTEsMjA3OD
 c4ODEsMjgzNDE4OTU0LDk4ODkwOTg5OCwtMTc3ODcwNTA4MCwy
 MDE5MDAwODc4LDEwODIyNDg5NzcsNzM3NTUwNDU5LDIwMzg2MT
 U3NjQsODE4Mzk5MzE4LC03Nzg2Mzk5OSw5Mjk5NjQzMzQsLTIw
