@@ -8,7 +8,7 @@ The idea underlying the Unicode concept is to separate characters   as idealisti
 Unicode in itself is nothing else than a vast lookup table to map each and every character in the Unicode character set to its own code point.
 ![enter image description here](https://lh3.googleusercontent.com/i4KF4qMjV5-Q2Hp-lNxEdfEzD49m9Wx-aQl0Ug8nGx1s1t2sWh4Fl1bVQtb8O8zDGHdeyI31V90R)
 By convention, code points are commonly written in the format of U+XXXX~16~. For instance the code point for  the Cyrillic capital "Ж" is U+0416.
-As soon as the code point for a character is found in the lookup table, *encoding* comes into action to build an in-memory representation for the code point according to the encoding scheme rules (there may be, and actually are, different encoding schemes, mostly due to historical reasons).
+As soon as the code point for a character is found in the lookup table, *encoding* comes into action to build an in-memory representation for the code point according to the encoding scheme rules (there may be, and actually are, different encoding schemes, mostly due to historical reasons, e.g. UCS-2, UTF-32, etc.).
 
 
 
@@ -41,7 +41,7 @@ where:
 
 The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or "10000 010110" (binary), which brings us directly to UTF-8 encoding of "**110**10000 **10**010110" or D096 (hex).
 
-### Implementation
+### CImplementation
 The code snippet below shows an example of what UTF-8 encoding implementation might look like.
 `Function EncodeUTF8(s)`
     
@@ -90,10 +90,10 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzgzNTc1NTksNDcwMDg2NjUxLDIwNz
-g3ODgxLDI4MzQxODk1NCw5ODg5MDk4OTgsLTE3Nzg3MDUwODAs
-MjAxOTAwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1OSwyMDM4Nj
-E1NzY0LDgxODM5OTMxOCwtNzc4NjM5OTksOTI5OTY0MzM0LC0y
-MDE2Njg4ODg5LDE0MjIxMDc0OSw5ODg4MjU5NjQsLTE1ODg3OT
-Y2Nl19
+eyJoaXN0b3J5IjpbMTQ0MDM5OTc4Nyw0NzAwODY2NTEsMjA3OD
+c4ODEsMjgzNDE4OTU0LDk4ODkwOTg5OCwtMTc3ODcwNTA4MCwy
+MDE5MDAwODc4LDEwODIyNDg5NzcsNzM3NTUwNDU5LDIwMzg2MT
+U3NjQsODE4Mzk5MzE4LC03Nzg2Mzk5OSw5Mjk5NjQzMzQsLTIw
+MTY2ODg4ODksMTQyMjEwNzQ5LDk4ODgyNTk2NCwtMTU4ODc5Nj
+Y2XX0=
 -->
