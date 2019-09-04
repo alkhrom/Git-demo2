@@ -24,7 +24,7 @@ Etc., up to 5 bytes (there is nothing to encode with 6 or more bytes).
 where:
 -  "110" is a a multi-byte mark
 -  "10" is a "code continued" mark
-
+Verbally
 
 
 - If  a code point is below 128 (decimal), write to a UTF-8 byte as a binary after the starting "0".
@@ -90,13 +90,15 @@ End  Function`
 
 
 
-G
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDExOTg4MCwtNDAxMzE1OTU3LDEyOD
-cwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3NjAsNDcwMDg2NjUx
-LDIwNzg3ODgxLDI4MzQxODk1NCw5ODg5MDk4OTgsLTE3Nzg3MD
-UwODAsMjAxOTAwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1OSwy
-MDM4NjE1NzY0LDgxODM5OTMxOCwtNzc4NjM5OTksOTI5OTY0Mz
-M0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OSw5ODg4MjU5NjRdfQ==
+# Going Deeper Down The Unicode
 
+
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzE0MjM5NjkyLC00MDEzMTU5NTcsMTI4Nz
+AxMzAxOCwyODQ3MTMxNjMsMjA5MTEwNzc2MCw0NzAwODY2NTEs
+MjA3ODc4ODEsMjgzNDE4OTU0LDk4ODkwOTg5OCwtMTc3ODcwNT
+A4MCwyMDE5MDAwODc4LDEwODIyNDg5NzcsNzM3NTUwNDU5LDIw
+Mzg2MTU3NjQsODE4Mzk5MzE4LC03Nzg2Mzk5OSw5Mjk5NjQzMz
+QsLTIwMTY2ODg4ODksMTQyMjEwNzQ5LDk4ODgyNTk2NF19
 -->
