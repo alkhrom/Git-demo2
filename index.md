@@ -96,7 +96,8 @@ For instance, the UTF-16 representation for the capital Cyrillic "Ж" is 0001011
 
 
 ## UTF-8 versus UTF-16 Matrix
-There is pretty much to say why UTF-8 seems, and actually is, more preferable to UTF-16 whenever it comes to quick 
+There is pretty much to say why UTF-8 seems, and actually is, more preferable to UTF-16 whenever it comes to quick efficient communications in most European languages:
+
 
 
 # Going Deeper Down The Unicode
@@ -108,11 +109,11 @@ There is pretty much to say why UTF-8 seems, and actually is, more preferable to
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjgxOTA5NSwtMTI5NTcyOTQyNiwtMj
-ExMTMzOTYzMCwtNDE4NzQwOTQyLC00MDEzMTU5NTcsMTI4NzAx
-MzAxOCwyODQ3MTMxNjMsMjA5MTEwNzc2MCw0NzAwODY2NTEsMj
-A3ODc4ODEsMjgzNDE4OTU0LDk4ODkwOTg5OCwtMTc3ODcwNTA4
-MCwyMDE5MDAwODc4LDEwODIyNDg5NzcsNzM3NTUwNDU5LDIwMz
-g2MTU3NjQsODE4Mzk5MzE4LC03Nzg2Mzk5OSw5Mjk5NjQzMzRd
-fQ==
+eyJoaXN0b3J5IjpbLTcyMTg5MjgxOSwtODU2ODE5MDk1LC0xMj
+k1NzI5NDI2LC0yMTExMzM5NjMwLC00MTg3NDA5NDIsLTQwMTMx
+NTk1NywxMjg3MDEzMDE4LDI4NDcxMzE2MywyMDkxMTA3NzYwLD
+Q3MDA4NjY1MSwyMDc4Nzg4MSwyODM0MTg5NTQsOTg4OTA5ODk4
+LC0xNzc4NzA1MDgwLDIwMTkwMDA4NzgsMTA4MjI0ODk3Nyw3Mz
+c1NTA0NTksMjAzODYxNTc2NCw4MTgzOTkzMTgsLTc3ODYzOTk5
+XX0=
 -->
