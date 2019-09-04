@@ -53,11 +53,8 @@ Verbally, in more detail, e.g. for a code point above 128 (decimal) yet below 20
 The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or "10000 010110" (binary), which brings us directly to UTF-8 encoding of "**110**10000 **10**010110" or D096 (hex).
 
 ### Code Implementation
+
 The code snippet below shows an example of what UTF-8 encoding implementation might look like.
-
-
-
-
 ## How To Do The Same In UTF-16 
 With UTF-16, simply write the code point of a character into two bytes "as is".
 > Although UTF-16 is a variable-width encoding, much like UTF-8, the minimum code unit width is "2" instead of "1".
@@ -80,11 +77,11 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjY5NTg1MzMsOTA5MTM5NzA4LC03Mj
-E4OTI4MTksLTg1NjgxOTA5NSwtMTI5NTcyOTQyNiwtMjExMTMz
-OTYzMCwtNDE4NzQwOTQyLC00MDEzMTU5NTcsMTI4NzAxMzAxOC
-wyODQ3MTMxNjMsMjA5MTEwNzc2MCw0NzAwODY2NTEsMjA3ODc4
-ODEsMjgzNDE4OTU0LDk4ODkwOTg5OCwtMTc3ODcwNTA4MCwyMD
-E5MDAwODc4LDEwODIyNDg5NzcsNzM3NTUwNDU5LDIwMzg2MTU3
-NjRdfQ==
+eyJoaXN0b3J5IjpbMjEzNTY1OTUyNSw5MDkxMzk3MDgsLTcyMT
+g5MjgxOSwtODU2ODE5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5
+NjMwLC00MTg3NDA5NDIsLTQwMTMxNTk1NywxMjg3MDEzMDE4LD
+I4NDcxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4
+MSwyODM0MTg5NTQsOTg4OTA5ODk4LC0xNzc4NzA1MDgwLDIwMT
+kwMDA4NzgsMTA4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNTc2
+NF19
 -->
