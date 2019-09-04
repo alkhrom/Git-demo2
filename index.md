@@ -90,7 +90,7 @@ The code snippet below shows an example of what UTF-8 encoding implementation mi
 
 ## How To Do The Same In UTF-16 
 With UTF-16, simply write the code point of a character into two bytes "as is".
-> Although UTF-16 is a variable-width encoding, much like UTF-8< the minimum code unit width is "2" instead of "1".
+> Although UTF-16 is a variable-width encoding, much like UTF-8, the minimum code unit width is "2" instead of "1".
 
 For instance, the UTF-16 representation for the capital Cyrillic "Ж" is 00010110 00000100 in binary.
 
@@ -108,11 +108,11 @@ For instance, the UTF-16 representation for the capital Cyrillic "Ж" is 0001011
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyMzAyMDQ2LC0yMTExMzM5NjMwLC00MT
-g3NDA5NDIsLTQwMTMxNTk1NywxMjg3MDEzMDE4LDI4NDcxMzE2
-MywyMDkxMTA3NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4MSwyODM0MT
-g5NTQsOTg4OTA5ODk4LC0xNzc4NzA1MDgwLDIwMTkwMDA4Nzgs
-MTA4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNTc2NCw4MTgzOT
-kzMTgsLTc3ODYzOTk5LDkyOTk2NDMzNCwtMjAxNjY4ODg4OV19
-
+eyJoaXN0b3J5IjpbLTEyOTU3Mjk0MjYsLTIxMTEzMzk2MzAsLT
+QxODc0MDk0MiwtNDAxMzE1OTU3LDEyODcwMTMwMTgsMjg0NzEz
+MTYzLDIwOTExMDc3NjAsNDcwMDg2NjUxLDIwNzg3ODgxLDI4Mz
+QxODk1NCw5ODg5MDk4OTgsLTE3Nzg3MDUwODAsMjAxOTAwMDg3
+OCwxMDgyMjQ4OTc3LDczNzU1MDQ1OSwyMDM4NjE1NzY0LDgxOD
+M5OTMxOCwtNzc4NjM5OTksOTI5OTY0MzM0LC0yMDE2Njg4ODg5
+XX0=
 -->
