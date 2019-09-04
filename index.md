@@ -7,7 +7,7 @@ Unicode has come as a solution to the problem of how to ensure consistent displa
 
 
 ## Some Philosophy Behind Unicode
-The idea underlying the Unicode concept is to separate the 
+The idea underlying the Unicode concept is to m
 ![enter image description here](https://lh3.googleusercontent.com/driTrANKja0TwszTgvDmmmLzRCryfCI5TGAj11gkI_PfxbNG3JVqszY282WWRLYdndv4AZL68Q9Q)
 
 
@@ -89,9 +89,9 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4OTA5ODk4LC0xNzc4NzA1MDgwLDIwMT
-kwMDA4NzgsMTA4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNTc2
-NCw4MTgzOTkzMTgsLTc3ODYzOTk5LDkyOTk2NDMzNCwtMjAxNj
-Y4ODg4OSwxNDIyMTA3NDksOTg4ODI1OTY0LC0xNTg4Nzk2NjZd
-fQ==
+eyJoaXN0b3J5IjpbLTE3ODQ3MjY4NzEsOTg4OTA5ODk4LC0xNz
+c4NzA1MDgwLDIwMTkwMDA4NzgsMTA4MjI0ODk3Nyw3Mzc1NTA0
+NTksMjAzODYxNTc2NCw4MTgzOTkzMTgsLTc3ODYzOTk5LDkyOT
+k2NDMzNCwtMjAxNjY4ODg4OSwxNDIyMTA3NDksOTg4ODI1OTY0
+LC0xNTg4Nzk2NjZdfQ==
 -->
