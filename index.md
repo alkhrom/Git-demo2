@@ -40,7 +40,7 @@ The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or 
 
 ### Implementation
 The code snippet below shows an example of what UTF-8 encoding implementation might look like.
-    `Function EncodeUTF8(s)`
+`Function EncodeUTF8(s)`
     
     Dim i, c, utfc, b1, b2, b3 
     
@@ -62,8 +62,7 @@ The code snippet below shows an example of what UTF-8 encoding implementation mi
 		    utfc = Chr(&hEF) & Chr(&hBF) & Chr(&hBD) 
     End  If 
     EncodeUTF8 = EncodeUTF8 + utfc 
-`Next`
-`End  Function`
+  `Next``End  Function`
 
 Function ToLong(intVal) 
     If intVal < 0  Then 
@@ -88,7 +87,7 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjQxNTM2MCwxMDgyMjQ4OTc3LDczNz
+eyJoaXN0b3J5IjpbMjAxOTAwMDg3OCwxMDgyMjQ4OTc3LDczNz
 U1MDQ1OSwyMDM4NjE1NzY0LDgxODM5OTMxOCwtNzc4NjM5OTks
 OTI5OTY0MzM0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OSw5ODg4Mj
 U5NjQsLTE1ODg3OTY2Nl19
