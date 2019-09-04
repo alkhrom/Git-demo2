@@ -2,6 +2,8 @@
 ## Why Unicode?
 Unicode has come as a solution to the problem of how to ensure consistent display of an increasing variety of symbols (e.g. alphabet letters from different languages not to mention  special characters, emoji, heiroglyphics and much more) when it became clear it does not fit into 8-bit in-memory representation.
 > Of course, if the entire Globe had spoken English, and if emoji had never existed, and if ...and if ...,  there would have never been a need for anything else but the good old ASCII. 
+
+
 ## Some Philosophy Behind Unicode
 The idea underlying the Unicode concept is to separate characters   as idealistic platonic entities from their in-memory representations by introducing the "magic numbers", or *code points*.
 ![enter image description here](https://lh3.googleusercontent.com/JQm9xEWsHYnNtK1qFN9TWw9xuqSFt5dZguJ9rW6qqHWUtI9rR_-VwZ5qd47kvqiiSXsvSV9khh3v)
