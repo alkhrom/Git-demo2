@@ -64,12 +64,12 @@ The code snippet below shows an example of what UTF-8 encoding implementation mi
     EncodeUTF8 = EncodeUTF8 + utfc 
   `Next``End  Function`
 
-`Function ToLong(intVal)
+`Function ToLong(intVal) 
 If intVal < 0  Then 
-	    ToLong = CLng(intVal) + &H10000 
-    Else 
-	    ToLong = CLng(intVal) 
-    End  If  
+ToLong = CLng(intVal) + &H10000 
+Else 
+ToLong = CLng(intVal) 
+End  If  
 End  Function`
 
 ## How To Do The Same In UTF-16 
@@ -92,7 +92,7 @@ For instance, the UTF-16 representation for the capital Cyrillic "Ж" is 0001011
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDk4NjM5MTQsLTQxODc0MDk0MiwtND
+eyJoaXN0b3J5IjpbLTE5MzgzOTY4ODAsLTQxODc0MDk0MiwtND
 AxMzE1OTU3LDEyODcwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3
 NjAsNDcwMDg2NjUxLDIwNzg3ODgxLDI4MzQxODk1NCw5ODg5MD
 k4OTgsLTE3Nzg3MDUwODAsMjAxOTAwMDg3OCwxMDgyMjQ4OTc3
