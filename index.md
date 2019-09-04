@@ -6,13 +6,19 @@ Unicode has come as a solution to the problem of how to ensure consistent displa
 
 ## Some Philosophy Behind Unicode
 The idea underlying the Unicode concept is to separate characters   as idealistic platonic entities from their in-memory representations by introducing the "magic numbers", or *code points*.
+
+
+
 ![enter image description here](https://lh3.googleusercontent.com/JQm9xEWsHYnNtK1qFN9TWw9xuqSFt5dZguJ9rW6qqHWUtI9rR_-VwZ5qd47kvqiiSXsvSV9khh3v)
+
 
 
 Unicode in itself is nothing else than a vast lookup table to map each and every character in the Unicode character set to its own code point.
 
 
+
 ![enter image description here](https://lh3.googleusercontent.com/i4KF4qMjV5-Q2Hp-lNxEdfEzD49m9Wx-aQl0Ug8nGx1s1t2sWh4Fl1bVQtb8O8zDGHdeyI31V90R)
+
 
 
 By convention, code points are commonly written in the format of U+XXXX~16~. For instance the code point for  the Cyrillic capital "Ж" is U+0416.
