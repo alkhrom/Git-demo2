@@ -24,14 +24,17 @@ Etc., up to 5 bytes (there is nothing to encode with 6 or more bytes).
 where:
 -  "110" is a a multi-byte mark
 -  "10" is a "code continued" mark
+
 Verbally, in more detail, e.g. for a code point above 128 (decimal) yet below 2048 (decimal), do:
-	1. Convert it into binary, which will take 11 bit. 
-	2. Split those bits into 5 on the left and 6 on the right. 
-	3. Start the first byte with a multi-byte mark of "**110**".  
-	4. Concatenate the left 5 bits to form the first byte. 
-	5. Start the second byte with a "code continued" mark of "**10**". 
-	6. Concatenate the right 6 bits to obtain the send byte. 
-	7. Concatenate the two bytes.
+
+1. Convert it into binary, which will take 11 bit. 
+2. Split those bits into 5 on the left and 6 on the right. 
+3. Start the first byte with a multi-byte mark of "**110**".  
+4. Concatenate the left 5 bits to form the first byte. 
+5. Start the second byte with a "code continued" mark of "**10**". 
+6. Concatenate the right 6 bits to obtain the send byte. 
+7. Concatenate the two bytes.
+
 ### Example
 The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or "10000 010110" (binary), which brings us directly to UTF-8 encoding of "**110**10000 **10**010110" or D096 (hex).
 
@@ -90,11 +93,11 @@ End  Function`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODcxNDE0MywtNDAxMzE1OTU3LDEyOD
-cwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3NjAsNDcwMDg2NjUx
-LDIwNzg3ODgxLDI4MzQxODk1NCw5ODg5MDk4OTgsLTE3Nzg3MD
-UwODAsMjAxOTAwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1OSwy
-MDM4NjE1NzY0LDgxODM5OTMxOCwtNzc4NjM5OTksOTI5OTY0Mz
-M0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OSw5ODg4MjU5NjRdfQ==
+eyJoaXN0b3J5IjpbLTIxNDY4OTIzNzcsLTQwMTMxNTk1NywxMj
+g3MDEzMDE4LDI4NDcxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1
+MSwyMDc4Nzg4MSwyODM0MTg5NTQsOTg4OTA5ODk4LC0xNzc4Nz
+A1MDgwLDIwMTkwMDA4NzgsMTA4MjI0ODk3Nyw3Mzc1NTA0NTks
+MjAzODYxNTc2NCw4MTgzOTkzMTgsLTc3ODYzOTk5LDkyOTk2ND
+MzNCwtMjAxNjY4ODg4OSwxNDIyMTA3NDksOTg4ODI1OTY0XX0=
 
 -->
