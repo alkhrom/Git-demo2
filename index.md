@@ -76,6 +76,8 @@ The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or 
 			End  If
 			EncodeUTF8 = EncodeUTF8 + utfc
 		Next
+	End  Function
+	Function ToLong(intVal)
 		
 
 
@@ -96,7 +98,7 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 
 
 
-# Going Deeper Down The Unicode
+# Digging Deeper Into The Unicode
 
 
 ## "High- and Low-endian" Versions of UTF-16
@@ -105,11 +107,11 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjU0NjgzMyw5MDkxMzk3MDgsLTcyMT
-g5MjgxOSwtODU2ODE5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5
-NjMwLC00MTg3NDA5NDIsLTQwMTMxNTk1NywxMjg3MDEzMDE4LD
-I4NDcxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4
-MSwyODM0MTg5NTQsOTg4OTA5ODk4LC0xNzc4NzA1MDgwLDIwMT
-kwMDA4NzgsMTA4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNTc2
-NF19
+eyJoaXN0b3J5IjpbOTg4MTg3ODE5LDkwOTEzOTcwOCwtNzIxOD
+kyODE5LC04NTY4MTkwOTUsLTEyOTU3Mjk0MjYsLTIxMTEzMzk2
+MzAsLTQxODc0MDk0MiwtNDAxMzE1OTU3LDEyODcwMTMwMTgsMj
+g0NzEzMTYzLDIwOTExMDc3NjAsNDcwMDg2NjUxLDIwNzg3ODgx
+LDI4MzQxODk1NCw5ODg5MDk4OTgsLTE3Nzg3MDUwODAsMjAxOT
+AwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1OSwyMDM4NjE1NzY0
+XX0=
 -->
