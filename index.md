@@ -11,11 +11,12 @@ By convention, code points are commonly written in the format of U+XXXX~16~. For
 As soon as the code point for a character is found in the lookup table, *encoding* comes into action to build an in-memory representation for the code point according to the encoding scheme rules (there may be, and actually are, different encoding schemes, mostly due to historical reasons, e.g. UCS-2, UTF-32, etc.).
 The entire Unicode space allows 1 114 112 code points ranging from 0 to10FFFF, of which only  128 237 are actually defined in v 9.0 of The Standard 
 ## How To Encode a Character in UTF-8 
-UTF-8 is an undeniable leader among Uncode encoding schemes when it comes to reverse compatibility with ASCII simply due to the enRule#1 
+UTF-8 is an undeniable leader among Uncode encoding schemes when it comes to reverse compatibility with ASCII simply due to the encoding rule#1. which rules:
+ - Use one byte for points in the range from 0 to 127 (decimal) like this:
 
-
+0x00000000 to 0x0000007F: 0xxxxxxx
 variable-width in-memory representation of Unicode code points. Use one byte for points in the range from 0 to 127 (decimal), two - between 128 and 2047, three - between 2048 and 65 535, etc., according to the scheme below:
-0x00000000 — 0x0000007F: 0xxxxxxx
+
 0x00000080 — 0x000007FF: 110xxxxx 10xxxxxx
 0x00000800 — 0x0000FFFF: 1110xxxx 10xxxxxx 10xxxxxx
 0x00010000 — 0x001FFFFF: 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
@@ -87,10 +88,10 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2ODQxMzA2LDQ3MDA4NjY1MSwyMDc4Nz
-g4MSwyODM0MTg5NTQsOTg4OTA5ODk4LC0xNzc4NzA1MDgwLDIw
-MTkwMDA4NzgsMTA4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNT
-c2NCw4MTgzOTkzMTgsLTc3ODYzOTk5LDkyOTk2NDMzNCwtMjAx
-NjY4ODg4OSwxNDIyMTA3NDksOTg4ODI1OTY0LC0xNTg4Nzk2Nj
-ZdfQ==
+eyJoaXN0b3J5IjpbLTE5MDQ5NzkxMTQsNDcwMDg2NjUxLDIwNz
+g3ODgxLDI4MzQxODk1NCw5ODg5MDk4OTgsLTE3Nzg3MDUwODAs
+MjAxOTAwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1OSwyMDM4Nj
+E1NzY0LDgxODM5OTMxOCwtNzc4NjM5OTksOTI5OTY0MzM0LC0y
+MDE2Njg4ODg5LDE0MjIxMDc0OSw5ODg4MjU5NjQsLTE1ODg3OT
+Y2Nl19
 -->
