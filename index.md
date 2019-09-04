@@ -64,8 +64,8 @@ The code snippet below shows an example of what UTF-8 encoding implementation mi
     EncodeUTF8 = EncodeUTF8 + utfc 
   `Next``End  Function`
 
-Function ToLong(intVal) 
-    If intVal < 0  Then 
+`Function ToLong(intVal)
+If intVal < 0  Then 
 	    ToLong = CLng(intVal) + &H10000 
     Else 
 	    ToLong = CLng(intVal) 
@@ -92,11 +92,11 @@ For instance, the UTF-16 representation for the capital Cyrillic "Ж" is 0001011
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTgzMDY1MCwtNDE4NzQwOTQyLC00MD
-EzMTU5NTcsMTI4NzAxMzAxOCwyODQ3MTMxNjMsMjA5MTEwNzc2
-MCw0NzAwODY2NTEsMjA3ODc4ODEsMjgzNDE4OTU0LDk4ODkwOT
-g5OCwtMTc3ODcwNTA4MCwyMDE5MDAwODc4LDEwODIyNDg5Nzcs
-NzM3NTUwNDU5LDIwMzg2MTU3NjQsODE4Mzk5MzE4LC03Nzg2Mz
-k5OSw5Mjk5NjQzMzQsLTIwMTY2ODg4ODksMTQyMjEwNzQ5XX0=
+eyJoaXN0b3J5IjpbLTEwNDk4NjM5MTQsLTQxODc0MDk0MiwtND
+AxMzE1OTU3LDEyODcwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3
+NjAsNDcwMDg2NjUxLDIwNzg3ODgxLDI4MzQxODk1NCw5ODg5MD
+k4OTgsLTE3Nzg3MDUwODAsMjAxOTAwMDg3OCwxMDgyMjQ4OTc3
+LDczNzU1MDQ1OSwyMDM4NjE1NzY0LDgxODM5OTMxOCwtNzc4Nj
+M5OTksOTI5OTY0MzM0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OV19
 
 -->
