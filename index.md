@@ -11,6 +11,8 @@ The idea underlying the Unicode concept is to separate characters   as idealisti
 
 Unicode in itself is nothing else than a vast lookup table to map each and every character in the Unicode character set to its own code point.
 ![enter image description here](https://lh3.googleusercontent.com/i4KF4qMjV5-Q2Hp-lNxEdfEzD49m9Wx-aQl0Ug8nGx1s1t2sWh4Fl1bVQtb8O8zDGHdeyI31V90R)
+
+
 By convention, code points are commonly written in the format of U+XXXX~16~. For instance the code point for  the Cyrillic capital "Ж" is U+0416.
 As soon as the code point for a character is found in the lookup table, *encoding* comes into action to build an in-memory representation for the code point according to the encoding scheme rules (there may be, and actually are, different encoding schemes, mostly due to historical reasons, e.g. UCS-2, UTF-32, etc.).
 The entire Unicode space allows 1 114 112 code points ranging from 0 to 10FFFF~16~, of which only  128 237 are actually defined in v 9.0 of The Standard. The space can be structured by *planes*, of which the Plane 0 (Basic Multilingual Plane, BMP) accommodates characters for almost all modern languages, and a large number of symbols.
