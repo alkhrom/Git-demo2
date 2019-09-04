@@ -55,6 +55,48 @@ The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or 
 ### Code Implementation
 
 The code snippet below shows an example of what UTF-8 encoding implementation might look like.
+
+`Function EncodeUTF8(s)
+    Dim i, c, utfc, b1, b2, b3
+    
+    For i=1 to Len(s)
+        c = ToLong(AscW(Mid(s,i,1)))
+ 
+        If c < 128 Then
+            utfc = chr( c)
+        ElseIf c < 2048 Then
+            b1 = c Mod &h40
+            b2 = (c - b1) / &h40
+            utfc = chr(&hC0 + b2) & chr(&h80 + b1)
+        ElseIf c < 65536 And (c < 55296 Or c > 57343) Then
+            b1 = c Mod &h40
+            b2 = ((c - b1) / &h40) Mod &h40
+            b3 = (c - b1 - (&h40 * b2)) / &h1000
+            utfc = chr(&hE0 + b3) & chr(&h80 + b2) & chr(&h80 + b1)
+        Else
+            ' Младший или старший суррогат UTF-16
+            utfc = Chr(&hEF) & Chr(&hBF) & Chr(&hBD)
+        End If
+
+        EncodeUTF8 = EncodeUTF8 + utfc
+    Next
+End Function
+
+Function ToLong(intVal)
+    If intVal < 0 Then
+        ToLong = CLng(intVal) + &H10000
+    Else
+        ToLong = CLng(intVal)
+    End If
+End Function`
+
+
+
+
+
+
+
+
 ## How To Do The Same In UTF-16 
 With UTF-16, simply write the code point of a character into two bytes "as is".
 > Although UTF-16 is a variable-width encoding, much like UTF-8, the minimum code unit width is "2" instead of "1".
@@ -77,11 +119,11 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTY1OTUyNSw5MDkxMzk3MDgsLTcyMT
-g5MjgxOSwtODU2ODE5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5
-NjMwLC00MTg3NDA5NDIsLTQwMTMxNTk1NywxMjg3MDEzMDE4LD
-I4NDcxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4
-MSwyODM0MTg5NTQsOTg4OTA5ODk4LC0xNzc4NzA1MDgwLDIwMT
-kwMDA4NzgsMTA4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNTc2
-NF19
+eyJoaXN0b3J5IjpbNDIyMTczMTgyLDkwOTEzOTcwOCwtNzIxOD
+kyODE5LC04NTY4MTkwOTUsLTEyOTU3Mjk0MjYsLTIxMTEzMzk2
+MzAsLTQxODc0MDk0MiwtNDAxMzE1OTU3LDEyODcwMTMwMTgsMj
+g0NzEzMTYzLDIwOTExMDc3NjAsNDcwMDg2NjUxLDIwNzg3ODgx
+LDI4MzQxODk1NCw5ODg5MDk4OTgsLTE3Nzg3MDUwODAsMjAxOT
+AwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1OSwyMDM4NjE1NzY0
+XX0=
 -->
