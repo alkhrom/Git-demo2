@@ -86,10 +86,7 @@ The code snippet below gives an example of what the code of a UTF-8 encoder may 
 	End  Function
 
 ## How To Do The Same In UTF-16 
-With UTF-16, simply write the code point of a character into two bytes "as is".
-
-For instance, the UTF-16 representation for the capital Cyrillic "Ж" is 00010110 00000100 in binary.
-However, this only works with code points below FFFF~16~. Encoding of a bigger code point require more than two bytes, so UTF-16 is a variable-width encoding too.
+With UTF-16, simply write the code point of a character into two bytes "as is". For instance, the UTF-16 representation for the capital Cyrillic "Ж" is 00010110 00000100 in binary. However, this only works with code points below FFFF~16~. Encoding of a bigger code point require more than two bytes, so UTF-16 is a variable-width encoding too, but the minimum code unit size is 2 bytes instead of 1 for UTF-8.
 
 
 ## UTF-8 versus UTF-16 Matrix
@@ -107,11 +104,11 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzU2NTM0MSwzOTIzNzQyMjksOTg4MT
-g3ODE5LDkwOTEzOTcwOCwtNzIxODkyODE5LC04NTY4MTkwOTUs
-LTEyOTU3Mjk0MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0MiwtND
-AxMzE1OTU3LDEyODcwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3
-NjAsNDcwMDg2NjUxLDIwNzg3ODgxLDI4MzQxODk1NCw5ODg5MD
-k4OTgsLTE3Nzg3MDUwODAsMjAxOTAwMDg3OCwxMDgyMjQ4OTc3
-XX0=
+eyJoaXN0b3J5IjpbLTExOTcxNzQyMTksMzkyMzc0MjI5LDk4OD
+E4NzgxOSw5MDkxMzk3MDgsLTcyMTg5MjgxOSwtODU2ODE5MDk1
+LC0xMjk1NzI5NDI2LC0yMTExMzM5NjMwLC00MTg3NDA5NDIsLT
+QwMTMxNTk1NywxMjg3MDEzMDE4LDI4NDcxMzE2MywyMDkxMTA3
+NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4MSwyODM0MTg5NTQsOTg4OT
+A5ODk4LC0xNzc4NzA1MDgwLDIwMTkwMDA4NzgsMTA4MjI0ODk3
+N119
 -->
