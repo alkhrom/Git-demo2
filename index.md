@@ -22,7 +22,7 @@ UTF-8 is a variable-width in-memory representation of Unicode code points. Use o
 where:
 -  "110" is a a multi-byte mark.
 -  "10" is a "code continued" mark.
-**Example:** 
+In more  detail:
 - If  a code point is below 128 (decimal), write to a UTF-8 byte "as is".
 - If a code point is above 128 (decimal) yet below 2048 (decimal), do:
 	1. Convert it into binary, which will take 11 bit. 
@@ -55,7 +55,7 @@ The code snippet below shows an example of what UTF-8 encoding implementation mi
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDA2Mjg2LDgxODM5OTMxOCwtNzc4Nj
+eyJoaXN0b3J5IjpbOTUyMTc1NTIxLDgxODM5OTMxOCwtNzc4Nj
 M5OTksOTI5OTY0MzM0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OSw5
 ODg4MjU5NjQsLTE1ODg3OTY2Nl19
 -->
