@@ -74,16 +74,9 @@ End  Function`
 
 ## How To Do The Same In UTF-16 
 With UTF-16, simply write the code point of a character into two bytes "as is".
-For instance, the representation 
-Символы Unicode до FFFF~16~  включительно (исключая диапазон для суррогатов) записываются как есть 16-битным словом.
+For instance, the UTF-16 representation for the capital Cyrillic "Ж" is in binary:
+00010110 00000100
 
-Символы же в диапазоне 1000016..10FFFF16  (больше 16 бит) кодируются по следующей схеме:
-
--   Из кода символа вычитается 1000016. В результате получится значение от нуля до FFFFF16, которое помещается в разрядную сетку 20 бит.
-
--   Старшие 10 бит (число в диапазоне 000016..03FF16) суммируются с D80016, и результат идёт в ведущее (первое) слово, которое входит в диапазон  D80016..DBFF16.
-
--   Младшие 10 бит (тоже число в диапазоне 000016..03FF16) суммируются с DC0016, и результат идёт в последующее (второе) слово, которое входит в диапазон  DC0016..DFFF16.
 
 ## UTF-8 versus UTF-16 Matrix
 
@@ -94,7 +87,7 @@ For instance, the representation
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjIxNzU5MywtNDAxMzE1OTU3LDEyOD
+eyJoaXN0b3J5IjpbMTc5MDc3NjQ3NiwtNDAxMzE1OTU3LDEyOD
 cwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3NjAsNDcwMDg2NjUx
 LDIwNzg3ODgxLDI4MzQxODk1NCw5ODg5MDk4OTgsLTE3Nzg3MD
 UwODAsMjAxOTAwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1OSwy
