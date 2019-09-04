@@ -15,7 +15,8 @@ UTF-8 is an undeniable leader among Uncode encoding schemes when it comes to rev
  - Use one byte for points in the range from 0 to 127 (decimal) like this:
 	0x00000000 to 0x0000007F: 0xxxxxxx
 It is easy to see this is nothing else but the good old one-byte ASCII, so users within Latin alphabet domain would not even notice the difference.
-As for the code pointsaccording to the scheme below:
+
+As for the code points above 128 (dec), the UTF-8 rules to actually use as many bytes as needed according to the scheme below:
 
 0x00000080 — 0x000007FF: 110xxxxx 10xxxxxx
 0x00000800 — 0x0000FFFF: 1110xxxx 10xxxxxx 10xxxxxx
@@ -88,10 +89,10 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2NDU0NzE3LDQ3MDA4NjY1MSwyMDc4Nz
-g4MSwyODM0MTg5NTQsOTg4OTA5ODk4LC0xNzc4NzA1MDgwLDIw
-MTkwMDA4NzgsMTA4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNT
-c2NCw4MTgzOTkzMTgsLTc3ODYzOTk5LDkyOTk2NDMzNCwtMjAx
-NjY4ODg4OSwxNDIyMTA3NDksOTg4ODI1OTY0LC0xNTg4Nzk2Nj
-ZdfQ==
+eyJoaXN0b3J5IjpbMjA5MTEwNzc2MCw0NzAwODY2NTEsMjA3OD
+c4ODEsMjgzNDE4OTU0LDk4ODkwOTg5OCwtMTc3ODcwNTA4MCwy
+MDE5MDAwODc4LDEwODIyNDg5NzcsNzM3NTUwNDU5LDIwMzg2MT
+U3NjQsODE4Mzk5MzE4LC03Nzg2Mzk5OSw5Mjk5NjQzMzQsLTIw
+MTY2ODg4ODksMTQyMjEwNzQ5LDk4ODgyNTk2NCwtMTU4ODc5Nj
+Y2XX0=
 -->
