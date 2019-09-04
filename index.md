@@ -14,17 +14,16 @@ Of course, had the entire Globe spoken English, there would have never been a ne
 ### Scripts and Planes
 
 ## UTF-8 Encoding Algorithm and Possible Implementation
-UTF-8 is a variable-width in-memory representation of Unicode code points. Use one byte for points in the range from 0 to 127 (decimal), two - between 128 and 2047, three - between 2048 and 65 
-
-
+UTF-8 is a variable-width in-memory representation of Unicode code points. Use one byte for points in the range from 0 to 127 (decimal), two - between 128 and 2047, three - between 2048 and 65 535, etc., according to the scheme below:
 0x00000000 — 0x0000007F: 0xxxxxxx
 0x00000080 — 0x000007FF: 110xxxxx 10xxxxxx
 0x00000800 — 0x0000FFFF: 1110xxxx 10xxxxxx 10xxxxxx
 0x00010000 — 0x001FFFFF: 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
-
-- If  a code point is below 128 (decimal), write to a UTF-8 byte "as is".
+where:
+-  "110" is a a multi-byte mark.
+- "10" is 
 **Example:** 
-
+- If  a code point is below 128 (decimal), write to a UTF-8 byte "as is".
 - If a code point is above 128 (decimal) yet below 2048 (decimal), do:
 	1. Convert it into binary, which will take 11 bit. 
 	2. Split those bits into 5 on the left and 6 on the right. 
@@ -47,7 +46,7 @@ The code snippet below shows an example of what UTF-8 encoding implementation mi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwNTcwNjkzLDgxODM5OTMxOCwtNzc4Nj
+eyJoaXN0b3J5IjpbNzY2NDAyMTc5LDgxODM5OTMxOCwtNzc4Nj
 M5OTksOTI5OTY0MzM0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OSw5
 ODg4MjU5NjQsLTE1ODg3OTY2Nl19
 -->
