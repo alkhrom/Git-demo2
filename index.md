@@ -90,7 +90,7 @@ With UTF-16, simply write the code point of a character into two bytes "as is".
 > Although UTF-16 is a variable-width encoding, much like UTF-8, the minimum code unit width is "2" instead of "1".
 
 For instance, the UTF-16 representation for the capital Cyrillic "Ж" is 00010110 00000100 in binary.
-However, this only works with code points in the range between 
+However, this only works with code points below FFFF~16~. Encoding of a bigger code point require more than two bytes
 
 
 ## UTF-8 versus UTF-16 Matrix
@@ -108,11 +108,11 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDQzMzQ5OCwzOTIzNzQyMjksOTg4MT
-g3ODE5LDkwOTEzOTcwOCwtNzIxODkyODE5LC04NTY4MTkwOTUs
-LTEyOTU3Mjk0MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0MiwtND
-AxMzE1OTU3LDEyODcwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3
-NjAsNDcwMDg2NjUxLDIwNzg3ODgxLDI4MzQxODk1NCw5ODg5MD
-k4OTgsLTE3Nzg3MDUwODAsMjAxOTAwMDg3OCwxMDgyMjQ4OTc3
-XX0=
+eyJoaXN0b3J5IjpbNzM0NDgwODE1LDM5MjM3NDIyOSw5ODgxOD
+c4MTksOTA5MTM5NzA4LC03MjE4OTI4MTksLTg1NjgxOTA5NSwt
+MTI5NTcyOTQyNiwtMjExMTMzOTYzMCwtNDE4NzQwOTQyLC00MD
+EzMTU5NTcsMTI4NzAxMzAxOCwyODQ3MTMxNjMsMjA5MTEwNzc2
+MCw0NzAwODY2NTEsMjA3ODc4ODEsMjgzNDE4OTU0LDk4ODkwOT
+g5OCwtMTc3ODcwNTA4MCwyMDE5MDAwODc4LDEwODIyNDg5Nzdd
+fQ==
 -->
