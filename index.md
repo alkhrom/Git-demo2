@@ -10,7 +10,7 @@ Unicode has come as a solution to the problem of how to ensure consistent displa
 The idea underlying the Unicode concept is to separate characters   as idealistic platonic entities from their in-memory representations by introducing the "magic numbers", or *code points*.
 ![enter image description here](https://lh3.googleusercontent.com/driTrANKja0TwszTgvDmmmLzRCryfCI5TGAj11gkI_PfxbNG3JVqszY282WWRLYdndv4AZL68Q9Q)
 Unicode in itself is nothing else than a vast lookup table to map each and every character in the Unicode character set to its own code point.
-As soon as the code point for a character is found, encoding comes into action to build an in-memory representation for the code point according to the encoding scheme rules (their may be, and actually are, different encoding schemes, mostl).
+As soon as the code point for a character is found, encoding comes into action to build an in-memory representation for the code point according to the encoding scheme rules (their may be, and actually are, different encoding schemes, mostly due to historical reasons).
 
 
 
@@ -92,9 +92,9 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjE3MTQ2LDI4MzQxODk1NCw5ODg5MD
-k4OTgsLTE3Nzg3MDUwODAsMjAxOTAwMDg3OCwxMDgyMjQ4OTc3
-LDczNzU1MDQ1OSwyMDM4NjE1NzY0LDgxODM5OTMxOCwtNzc4Nj
-M5OTksOTI5OTY0MzM0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OSw5
-ODg4MjU5NjQsLTE1ODg3OTY2Nl19
+eyJoaXN0b3J5IjpbMjA3ODc4ODEsMjgzNDE4OTU0LDk4ODkwOT
+g5OCwtMTc3ODcwNTA4MCwyMDE5MDAwODc4LDEwODIyNDg5Nzcs
+NzM3NTUwNDU5LDIwMzg2MTU3NjQsODE4Mzk5MzE4LC03Nzg2Mz
+k5OSw5Mjk5NjQzMzQsLTIwMTY2ODg4ODksMTQyMjEwNzQ5LDk4
+ODgyNTk2NCwtMTU4ODc5NjY2XX0=
 -->
