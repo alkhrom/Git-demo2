@@ -52,9 +52,10 @@ The code snippet below shows an example of what UTF-8 encoding implementation mi
 
 -   Младшие 10 бит (тоже число в диапазоне 000016..03FF16) суммируются с DC0016, и результат идёт в последующее (второе) слово, которое входит в диапазон  DC0016..DFFF16.
 
+## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTI1NzM5MCw4MTgzOTkzMTgsLTc3OD
+eyJoaXN0b3J5IjpbLTU5NTQzOTkwNiw4MTgzOTkzMTgsLTc3OD
 YzOTk5LDkyOTk2NDMzNCwtMjAxNjY4ODg4OSwxNDIyMTA3NDks
 OTg4ODI1OTY0LC0xNTg4Nzk2NjZdfQ==
 -->
