@@ -3,7 +3,8 @@
 ## Why Unicode?
 
 Unicode has come as a solution to the problem of how to ensure consistent display of the vast variety of symbols (e.g. alphabet letters)
-> Of course, if the entire Globe spoken English, and if emoji had never exister, and if there would have never been a need for anything else but the good old ASCII. However, as the Internet party
+> Of course, if the entire Globe spoken English, and if emoji had never existed, and if ...and if ...,  there would have never been a need for anything else but the good old ASCII. 
+
 
 ## Some Philosophy Behind Unicode
 
@@ -88,8 +89,8 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Njg5MzkwNCwyMDE5MDAwODc4LDEwOD
-IyNDg5NzcsNzM3NTUwNDU5LDIwMzg2MTU3NjQsODE4Mzk5MzE4
-LC03Nzg2Mzk5OSw5Mjk5NjQzMzQsLTIwMTY2ODg4ODksMTQyMj
-EwNzQ5LDk4ODgyNTk2NCwtMTU4ODc5NjY2XX0=
+eyJoaXN0b3J5IjpbLTE3Nzg3MDUwODAsMjAxOTAwMDg3OCwxMD
+gyMjQ4OTc3LDczNzU1MDQ1OSwyMDM4NjE1NzY0LDgxODM5OTMx
+OCwtNzc4NjM5OTksOTI5OTY0MzM0LC0yMDE2Njg4ODg5LDE0Mj
+IxMDc0OSw5ODg4MjU5NjQsLTE1ODg3OTY2Nl19
 -->
