@@ -42,11 +42,19 @@ The code snippet below shows an example of what UTF-8 encoding implementation mi
 
 ## UTF-16 Encoding Algorithm and Implementation
 
+Символы Unicode до FFFF16  включительно (исключая диапазон для суррогатов) записываются как есть 16-битным словом.
 
+Символы же в диапазоне 1000016..10FFFF16  (больше 16 бит) кодируются по следующей схеме:
+
+-   Из кода символа вычитается 1000016. В результате получится значение от нуля до FFFFF16, которое помещается в разрядную сетку 20 бит.
+
+-   Старшие 10 бит (число в диапазоне 000016..03FF16) суммируются с D80016, и результат идёт в ведущее (первое) слово, которое входит в диапазон  D80016..DBFF16.
+
+-   Младшие 10 бит (тоже число в диапазоне 000016..03FF16) суммируются с DC0016, и результат идёт в последующее (второе) слово, которое входит в диапазон  DC0016..DFFF16.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjM3ODUwMDMsODE4Mzk5MzE4LC03Nz
-g2Mzk5OSw5Mjk5NjQzMzQsLTIwMTY2ODg4ODksMTQyMjEwNzQ5
-LDk4ODgyNTk2NCwtMTU4ODc5NjY2XX0=
+eyJoaXN0b3J5IjpbLTQzMTI1NzM5MCw4MTgzOTkzMTgsLTc3OD
+YzOTk5LDkyOTk2NDMzNCwtMjAxNjY4ODg4OSwxNDIyMTA3NDks
+OTg4ODI1OTY0LC0xNTg4Nzk2NjZdfQ==
 -->
