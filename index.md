@@ -70,7 +70,13 @@ The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or 
 				b1 = c Mod &h40
 				b2 = ((c - b1) / &h40) Mod &h40
 				b3 = (c - b1 - (&h40 * b2)) / &h1000
-				
+				utfc = chr(&hE0 + b3) & chr(&h80 + b2) & chr(&h80 + b1)
+			Else
+				utfc = Chr(&hEF) & Chr(&hBF) & Chr(&hBD)
+			End  If
+			EncodeUTF8 = EncodeUTF8 + utfc
+		Next
+		
 
 
 
@@ -99,7 +105,7 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Njc2NjMxNiw5MDkxMzk3MDgsLTcyMT
+eyJoaXN0b3J5IjpbLTI2MjU0NjgzMyw5MDkxMzk3MDgsLTcyMT
 g5MjgxOSwtODU2ODE5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5
 NjMwLC00MTg3NDA5NDIsLTQwMTMxNTk1NywxMjg3MDEzMDE4LD
 I4NDcxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4
