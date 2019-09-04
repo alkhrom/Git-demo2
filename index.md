@@ -58,8 +58,11 @@ Function EncodeUTF8(s)
 		c = ToLong(AscW(Mid(s,i,1))) 
 		If c < 128  Then 
 			utfc = chr( c) ElseIf c < 2048  Then 
-		b1 = c Mod &h40 
-		b2 = (c - b1) / &h40 utfc = chr(&hC0 + b2) & chr(&h80 + b1) ElseIf c < 65536  And (c < 55296  Or c > 57343) Then b1 = c Mod &h40 b2 = ((c - b1) / &h40) Mod &h40 b3 = (c - b1 - (&h40 * b2)) / &h1000 utfc = chr(&hE0 + b3) & chr(&h80 + b2) & chr(&h80 + b1) Else
+			b1 = c Mod &h40 
+			b2 = (c - b1) / &h40 
+		utfc = chr(&hC0 + b2) & chr(&h80 + b1) 
+		ElseIf c < 65536  And (c < 55296  Or c > 57343) Then 
+		b1 = c Mod &h40 b2 = ((c - b1) / &h40) Mod &h40 b3 = (c - b1 - (&h40 * b2)) / &h1000 utfc = chr(&hE0 + b3) & chr(&h80 + b2) & chr(&h80 + b1) Else
 
 
 
@@ -130,7 +133,7 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzA2MzI3Nyw5MDkxMzk3MDgsLTcyMT
+eyJoaXN0b3J5IjpbLTI4ODcyNTc2MSw5MDkxMzk3MDgsLTcyMT
 g5MjgxOSwtODU2ODE5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5
 NjMwLC00MTg3NDA5NDIsLTQwMTMxNTk1NywxMjg3MDEzMDE4LD
 I4NDcxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4
