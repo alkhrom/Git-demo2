@@ -25,7 +25,7 @@ where:
 
 
 
-- If  a code point is below 128 (decimal), write to a UTF-8 byte as a binary.
+- If  a code point is below 128 (decimal), write to a UTF-8 byte as a binary after the starting "0".
 - If a code point is above 128 (decimal) yet below 2048 (decimal), do:
 	1. Convert it into binary, which will take 11 bit. 
 	2. Split those bits into 5 on the left and 6 on the right. 
@@ -63,14 +63,15 @@ The code snippet below shows an example of what UTF-8 encoding implementation mi
     End  If 
     EncodeUTF8 = EncodeUTF8 + utfc 
    `Next  
-End  Function  
+End  Function `
+
 Function ToLong(intVal) 
     If intVal < 0  Then 
 	    ToLong = CLng(intVal) + &H10000 
     Else 
 	    ToLong = CLng(intVal) 
     End  If  
-End  Function``
+End  Function`
 
 ## How To Do The Same In UTF-16 
 
@@ -87,8 +88,8 @@ End  Function``
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDI5ODA2NjUsMTA4MjI0ODk3Nyw3Mz
-c1NTA0NTksMjAzODYxNTc2NCw4MTgzOTkzMTgsLTc3ODYzOTk5
-LDkyOTk2NDMzNCwtMjAxNjY4ODg4OSwxNDIyMTA3NDksOTg4OD
-I1OTY0LC0xNTg4Nzk2NjZdfQ==
+eyJoaXN0b3J5IjpbLTM4NTUyNDQxNiwxMDgyMjQ4OTc3LDczNz
+U1MDQ1OSwyMDM4NjE1NzY0LDgxODM5OTMxOCwtNzc4NjM5OTks
+OTI5OTY0MzM0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OSw5ODg4Mj
+U5NjQsLTE1ODg3OTY2Nl19
 -->
