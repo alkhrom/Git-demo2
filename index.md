@@ -7,7 +7,7 @@ Unicode has come as a solution to the problem of how to ensure consistent displa
 
 
 ## Some Philosophy Behind Unicode
-The idea underlying the Unicode concept is to m
+The idea underlying the Unicode concept is to map characters as idealistic platonic entities to "magic numbers", or code points, which then will be 
 ![enter image description here](https://lh3.googleusercontent.com/driTrANKja0TwszTgvDmmmLzRCryfCI5TGAj11gkI_PfxbNG3JVqszY282WWRLYdndv4AZL68Q9Q)
 
 
@@ -89,9 +89,9 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQ3MjY4NzEsOTg4OTA5ODk4LC0xNz
-c4NzA1MDgwLDIwMTkwMDA4NzgsMTA4MjI0ODk3Nyw3Mzc1NTA0
-NTksMjAzODYxNTc2NCw4MTgzOTkzMTgsLTc3ODYzOTk5LDkyOT
-k2NDMzNCwtMjAxNjY4ODg4OSwxNDIyMTA3NDksOTg4ODI1OTY0
-LC0xNTg4Nzk2NjZdfQ==
+eyJoaXN0b3J5IjpbLTQxMTA0NDc1MCw5ODg5MDk4OTgsLTE3Nz
+g3MDUwODAsMjAxOTAwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1
+OSwyMDM4NjE1NzY0LDgxODM5OTMxOCwtNzc4NjM5OTksOTI5OT
+Y0MzM0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OSw5ODg4MjU5NjQs
+LTE1ODg3OTY2Nl19
 -->
