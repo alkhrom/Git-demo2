@@ -74,7 +74,7 @@ End  Function``
 
 ## How To Do The Same In UTF-16 
 
-Символы Unicode до FFFF16  включительно (исключая диапазон для суррогатов) записываются как есть 16-битным словом.
+Символы Unicode до FFFF~16~  включительно (исключая диапазон для суррогатов) записываются как есть 16-битным словом.
 
 Символы же в диапазоне 1000016..10FFFF16  (больше 16 бит) кодируются по следующей схеме:
 
@@ -87,7 +87,8 @@ End  Function``
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3NTUwNDU5LDIwMzg2MTU3NjQsODE4Mz
-k5MzE4LC03Nzg2Mzk5OSw5Mjk5NjQzMzQsLTIwMTY2ODg4ODks
-MTQyMjEwNzQ5LDk4ODgyNTk2NCwtMTU4ODc5NjY2XX0=
+eyJoaXN0b3J5IjpbMTA4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzOD
+YxNTc2NCw4MTgzOTkzMTgsLTc3ODYzOTk5LDkyOTk2NDMzNCwt
+MjAxNjY4ODg4OSwxNDIyMTA3NDksOTg4ODI1OTY0LC0xNTg4Nz
+k2NjZdfQ==
 -->
