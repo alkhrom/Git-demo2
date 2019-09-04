@@ -9,7 +9,7 @@ Unicode in itself is nothing else than a vast lookup table to map each and every
 ![enter image description here](https://lh3.googleusercontent.com/i4KF4qMjV5-Q2Hp-lNxEdfEzD49m9Wx-aQl0Ug8nGx1s1t2sWh4Fl1bVQtb8O8zDGHdeyI31V90R)
 By convention, code points are commonly written in the format of U+XXXX~16~. For instance the code point for  the Cyrillic capital "Ж" is U+0416.
 As soon as the code point for a character is found in the lookup table, *encoding* comes into action to build an in-memory representation for the code point according to the encoding scheme rules (there may be, and actually are, different encoding schemes, mostly due to historical reasons, e.g. UCS-2, UTF-32, etc.).
-The entire Unicode space allows 1 114 112 code points ranging from 0 to 10FFFF~16~, of which only  128 237 are actually defined in v 9.0 of The Standard. The space can be structured by *planes*, of which the Plane 0 (Basic Multilingual Plane, BMP) acccomodates 
+The entire Unicode space allows 1 114 112 code points ranging from 0 to 10FFFF~16~, of which only  128 237 are actually defined in v 9.0 of The Standard. The space can be structured by *planes*, of which the Plane 0 (Basic Multilingual Plane, BMP) accommodates 
 ## How To Encode a Character in UTF-8 
 UTF-8 is an undeniable winner of the race among Unicode encoding schemes when it comes to memory saving and  reverse compatibility with ASCII simply due to the encoding rule#1, which rules:
  - Use one byte for points in the range from 0 to 127 (decimal) like this:
@@ -89,7 +89,7 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDk1MTM2MCwxMjg3MDEzMDE4LDI4ND
+eyJoaXN0b3J5IjpbMTY5NTcwNjgwMiwxMjg3MDEzMDE4LDI4ND
 cxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4MSwy
 ODM0MTg5NTQsOTg4OTA5ODk4LC0xNzc4NzA1MDgwLDIwMTkwMD
 A4NzgsMTA4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNTc2NCw4
