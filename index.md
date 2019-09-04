@@ -33,7 +33,7 @@ where:
 	6. Concatenate the right 6 bits to obtain the send byte. 
 	7. Concatenate the two bytes.
 
-**Example:**
+
 The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or "10000 010110" (binary), which brings us directly to UTF-8 encoding of "**110**10000 **10**010110" or D096 (hex).
 
 ### Implementation
@@ -55,7 +55,7 @@ The code snippet below shows an example of what UTF-8 encoding implementation mi
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTQzOTkwNiw4MTgzOTkzMTgsLTc3OD
-YzOTk5LDkyOTk2NDMzNCwtMjAxNjY4ODg4OSwxNDIyMTA3NDks
-OTg4ODI1OTY0LC0xNTg4Nzk2NjZdfQ==
+eyJoaXN0b3J5IjpbMTIyMDA2Mjg2LDgxODM5OTMxOCwtNzc4Nj
+M5OTksOTI5OTY0MzM0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OSw5
+ODg4MjU5NjQsLTE1ODg3OTY2Nl19
 -->
