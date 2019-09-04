@@ -97,7 +97,8 @@ For instance, the UTF-16 representation for the capital Cyrillic "Ж" is 0001011
 
 ## UTF-8 versus UTF-16 Matrix
 There is pretty much to say why UTF-8 seems, and actually is, more preferable to UTF-16 whenever it comes to quick efficient communications in most European languages:
-A UTF-8 file that contains only ASCII (https://en.wikipedia.org/wiki/ASCII "ASCII") characters is identical to an ASCII file. Legacy programs can generally handle UTF-8 encoded files, even if they contain non-ASCII characters. For instance, the [C](https://en.wikipedia.org/wiki/C_(programming_language) "C (programming language)")  [printf](https://en.wikipedia.org/wiki/Printf "Printf") function can print a UTF-8 string, as it only looks for the ASCII '%' character to define a formatting string, and prints all other bytes unchanged, thus non-ASCII characters will be output unchanged.
+A UTF-8 file that contains only ASCII  characters is identical to an ASCII file. Legacy programs can generally handle UTF-8 encoded files, even if they contain non-ASCII characters. For instance, the C    `printf`  function can print a UTF-8 string, as it only looks for the ASCII '%' character to define a formatting string, and prints all other bytes unchanged, thus non-ASCII characters will be output unchanged.
+
 
 
 # Going Deeper Down The Unicode
@@ -109,11 +110,11 @@ A UTF-8 file that contains only ASCII (https://en.wikipedia.org/wiki/ASCII "ASCI
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjgxNjkzMzYsLTcyMTg5MjgxOSwtOD
-U2ODE5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5NjMwLC00MTg3
-NDA5NDIsLTQwMTMxNTk1NywxMjg3MDEzMDE4LDI4NDcxMzE2My
-wyMDkxMTA3NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4MSwyODM0MTg5
-NTQsOTg4OTA5ODk4LC0xNzc4NzA1MDgwLDIwMTkwMDA4NzgsMT
-A4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNTc2NCw4MTgzOTkz
-MThdfQ==
+eyJoaXN0b3J5IjpbOTA5MTM5NzA4LC03MjE4OTI4MTksLTg1Nj
+gxOTA5NSwtMTI5NTcyOTQyNiwtMjExMTMzOTYzMCwtNDE4NzQw
+OTQyLC00MDEzMTU5NTcsMTI4NzAxMzAxOCwyODQ3MTMxNjMsMj
+A5MTEwNzc2MCw0NzAwODY2NTEsMjA3ODc4ODEsMjgzNDE4OTU0
+LDk4ODkwOTg5OCwtMTc3ODcwNTA4MCwyMDE5MDAwODc4LDEwOD
+IyNDg5NzcsNzM3NTUwNDU5LDIwMzg2MTU3NjQsODE4Mzk5MzE4
+XX0=
 -->
