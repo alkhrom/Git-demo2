@@ -28,13 +28,17 @@ The entire Unicode space allows 1 114 112 code points ranging from 0 to 10FFFF~1
 UTF-8 is an undeniable winner of the race among Unicode encoding schemes when it comes to memory saving and  reverse compatibility with ASCII simply due to the encoding rule#1, which rules:
  - Use one byte for points in the range from 0 to 127 (decimal) like this:
 	0x00000000 to 0x0000007F: 0xxxxxxx
+
 > It is easy to see this is nothing else but the good old one-byte ASCII, so legacy software that knows nothing about Unicode would not even notice the difference.
 
 As for the code points above 128 (dec), the UTF-8 rules to actually use as many bytes as needed (so it is a variable-width encoding) according to the scheme below:
 
 0x00000080 — 0x000007FF: 110xxxxx 10xxxxxx
+
 0x00000800 — 0x0000FFFF: 1110xxxx 10xxxxxx 10xxxxxx
+
 Etc., up to 5 bytes (there is nothing to encode with 6 or more bytes).
+
 where:
 -  "110" is a a multi-byte mark
 -  "10" is a "code continued" mark
@@ -104,11 +108,11 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MzIwMzU3OSwzOTIzNzQyMjksOTg4MT
-g3ODE5LDkwOTEzOTcwOCwtNzIxODkyODE5LC04NTY4MTkwOTUs
-LTEyOTU3Mjk0MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0MiwtND
-AxMzE1OTU3LDEyODcwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3
-NjAsNDcwMDg2NjUxLDIwNzg3ODgxLDI4MzQxODk1NCw5ODg5MD
-k4OTgsLTE3Nzg3MDUwODAsMjAxOTAwMDg3OCwxMDgyMjQ4OTc3
+eyJoaXN0b3J5IjpbMjAxOTAxNjI2MSwtNzczMjAzNTc5LDM5Mj
+M3NDIyOSw5ODgxODc4MTksOTA5MTM5NzA4LC03MjE4OTI4MTks
+LTg1NjgxOTA5NSwtMTI5NTcyOTQyNiwtMjExMTMzOTYzMCwtND
+E4NzQwOTQyLC00MDEzMTU5NTcsMTI4NzAxMzAxOCwyODQ3MTMx
+NjMsMjA5MTEwNzc2MCw0NzAwODY2NTEsMjA3ODc4ODEsMjgzND
+E4OTU0LDk4ODkwOTg5OCwtMTc3ODcwNTA4MCwyMDE5MDAwODc4
 XX0=
 -->
