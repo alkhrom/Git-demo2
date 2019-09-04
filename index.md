@@ -11,10 +11,10 @@ By convention, code points are commonly written in the format of U+XXXX~16~. For
 As soon as the code point for a character is found in the lookup table, *encoding* comes into action to build an in-memory representation for the code point according to the encoding scheme rules (there may be, and actually are, different encoding schemes, mostly due to historical reasons, e.g. UCS-2, UTF-32, etc.).
 The entire Unicode space allows 1 114 112 code points ranging from 0 to10FFFF, of which only  128 237 are actually defined in v 9.0 of The Standard 
 ## How To Encode a Character in UTF-8 
-UTF-8 is an undeniable leader among Uncode encoding schemes when it comes to reverse compatibility with ASCII simply due to the encoding rule#1. which rules:
+UTF-8 is an undeniable leader among Uncode encoding schemes when it comes to reverse compatibility with ASCII simply due to the encoding rule#1, which rules:
  - Use one byte for points in the range from 0 to 127 (decimal) like this:
-
-0x00000000 to 0x0000007F: 0xxxxxxx
+	0x00000000 to 0x0000007F: 0xxxxxxx
+It is easy to see this is nothing else but the good old one-byte ASCII
 variable-width in-memory representation of Unicode code points. Use one byte for points in the range from 0 to 127 (decimal), two - between 128 and 2047, three - between 2048 and 65 535, etc., according to the scheme below:
 
 0x00000080 — 0x000007FF: 110xxxxx 10xxxxxx
@@ -88,10 +88,10 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDQ5NzkxMTQsNDcwMDg2NjUxLDIwNz
-g3ODgxLDI4MzQxODk1NCw5ODg5MDk4OTgsLTE3Nzg3MDUwODAs
-MjAxOTAwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1OSwyMDM4Nj
-E1NzY0LDgxODM5OTMxOCwtNzc4NjM5OTksOTI5OTY0MzM0LC0y
-MDE2Njg4ODg5LDE0MjIxMDc0OSw5ODg4MjU5NjQsLTE1ODg3OT
-Y2Nl19
+eyJoaXN0b3J5IjpbMTk5OTI1NjY1OSw0NzAwODY2NTEsMjA3OD
+c4ODEsMjgzNDE4OTU0LDk4ODkwOTg5OCwtMTc3ODcwNTA4MCwy
+MDE5MDAwODc4LDEwODIyNDg5NzcsNzM3NTUwNDU5LDIwMzg2MT
+U3NjQsODE4Mzk5MzE4LC03Nzg2Mzk5OSw5Mjk5NjQzMzQsLTIw
+MTY2ODg4ODksMTQyMjEwNzQ5LDk4ODgyNTk2NCwtMTU4ODc5Nj
+Y2XX0=
 -->
