@@ -25,7 +25,7 @@ where:
 
 
 
-- If  a code point is below 128 (decimal), write to a UTF-8 byte "as is".
+- If  a code point is below 128 (decimal), write to a UTF-8 byte as a binary.
 - If a code point is above 128 (decimal) yet below 2048 (decimal), do:
 	1. Convert it into binary, which will take 11 bit. 
 	2. Split those bits into 5 on the left and 6 on the right. 
@@ -87,8 +87,8 @@ End  Function``
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzOD
-YxNTc2NCw4MTgzOTkzMTgsLTc3ODYzOTk5LDkyOTk2NDMzNCwt
-MjAxNjY4ODg4OSwxNDIyMTA3NDksOTg4ODI1OTY0LC0xNTg4Nz
-k2NjZdfQ==
+eyJoaXN0b3J5IjpbLTE2NDI5ODA2NjUsMTA4MjI0ODk3Nyw3Mz
+c1NTA0NTksMjAzODYxNTc2NCw4MTgzOTkzMTgsLTc3ODYzOTk5
+LDkyOTk2NDMzNCwtMjAxNjY4ODg4OSwxNDIyMTA3NDksOTg4OD
+I1OTY0LC0xNTg4Nzk2NjZdfQ==
 -->
