@@ -97,7 +97,7 @@ For instance, the UTF-16 representation for the capital Cyrillic "Ж" is 0001011
 
 ## UTF-8 versus UTF-16 Matrix
 There is pretty much to say why UTF-8 seems, and actually is, more preferable to UTF-16 whenever it comes to quick efficient communications in most European languages:
-
+A UTF-8 file that contains only ASCII (https://en.wikipedia.org/wiki/ASCII "ASCII") characters is identical to an ASCII file. Legacy programs can generally handle UTF-8 encoded files, even if they contain non-ASCII characters. For instance, the [C](https://en.wikipedia.org/wiki/C_(programming_language) "C (programming language)")  [printf](https://en.wikipedia.org/wiki/Printf "Printf") function can print a UTF-8 string, as it only looks for the ASCII '%' character to define a formatting string, and prints all other bytes unchanged, thus non-ASCII characters will be output unchanged.
 
 
 # Going Deeper Down The Unicode
@@ -109,11 +109,11 @@ There is pretty much to say why UTF-8 seems, and actually is, more preferable to
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMTg5MjgxOSwtODU2ODE5MDk1LC0xMj
-k1NzI5NDI2LC0yMTExMzM5NjMwLC00MTg3NDA5NDIsLTQwMTMx
-NTk1NywxMjg3MDEzMDE4LDI4NDcxMzE2MywyMDkxMTA3NzYwLD
-Q3MDA4NjY1MSwyMDc4Nzg4MSwyODM0MTg5NTQsOTg4OTA5ODk4
-LC0xNzc4NzA1MDgwLDIwMTkwMDA4NzgsMTA4MjI0ODk3Nyw3Mz
-c1NTA0NTksMjAzODYxNTc2NCw4MTgzOTkzMTgsLTc3ODYzOTk5
-XX0=
+eyJoaXN0b3J5IjpbLTE5MjgxNjkzMzYsLTcyMTg5MjgxOSwtOD
+U2ODE5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5NjMwLC00MTg3
+NDA5NDIsLTQwMTMxNTk1NywxMjg3MDEzMDE4LDI4NDcxMzE2My
+wyMDkxMTA3NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4MSwyODM0MTg5
+NTQsOTg4OTA5ODk4LC0xNzc4NzA1MDgwLDIwMTkwMDA4NzgsMT
+A4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNTc2NCw4MTgzOTkz
+MThdfQ==
 -->
