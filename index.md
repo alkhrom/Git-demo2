@@ -10,6 +10,8 @@ The idea underlying the Unicode concept is to separate characters   as idealisti
 
 
 Unicode in itself is nothing else than a vast lookup table to map each and every character in the Unicode character set to its own code point.
+
+
 ![enter image description here](https://lh3.googleusercontent.com/i4KF4qMjV5-Q2Hp-lNxEdfEzD49m9Wx-aQl0Ug8nGx1s1t2sWh4Fl1bVQtb8O8zDGHdeyI31V90R)
 
 
