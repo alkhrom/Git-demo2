@@ -14,8 +14,8 @@ The entire Unicode space allows 1 114 112 code points ranging from 0 to10FFFF, o
 UTF-8 is an undeniable leader among Uncode encoding schemes when it comes to reverse compatibility with ASCII simply due to the encoding rule#1, which rules:
  - Use one byte for points in the range from 0 to 127 (decimal) like this:
 	0x00000000 to 0x0000007F: 0xxxxxxx
-It is easy to see this is nothing else but the good old one-byte ASCII
-variable-width in-memory representation of Unicode code points. Use one byte for points in the range from 0 to 127 (decimal), two - between 128 and 2047, three - between 2048 and 65 535, etc., according to the scheme below:
+It is easy to see this is nothing else but the good old one-byte ASCII, so users within Latin alphabet domain would not even notice the difference.
+As for the code pointsaccording to the scheme below:
 
 0x00000080 — 0x000007FF: 110xxxxx 10xxxxxx
 0x00000800 — 0x0000FFFF: 1110xxxx 10xxxxxx 10xxxxxx
@@ -88,10 +88,10 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTI1NjY1OSw0NzAwODY2NTEsMjA3OD
-c4ODEsMjgzNDE4OTU0LDk4ODkwOTg5OCwtMTc3ODcwNTA4MCwy
-MDE5MDAwODc4LDEwODIyNDg5NzcsNzM3NTUwNDU5LDIwMzg2MT
-U3NjQsODE4Mzk5MzE4LC03Nzg2Mzk5OSw5Mjk5NjQzMzQsLTIw
-MTY2ODg4ODksMTQyMjEwNzQ5LDk4ODgyNTk2NCwtMTU4ODc5Nj
-Y2XX0=
+eyJoaXN0b3J5IjpbOTg2NDU0NzE3LDQ3MDA4NjY1MSwyMDc4Nz
+g4MSwyODM0MTg5NTQsOTg4OTA5ODk4LC0xNzc4NzA1MDgwLDIw
+MTkwMDA4NzgsMTA4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNT
+c2NCw4MTgzOTkzMTgsLTc3ODYzOTk5LDkyOTk2NDMzNCwtMjAx
+NjY4ODg4OSwxNDIyMTA3NDksOTg4ODI1OTY0LC0xNTg4Nzk2Nj
+ZdfQ==
 -->
