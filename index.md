@@ -74,8 +74,9 @@ End  Function`
 
 ## How To Do The Same In UTF-16 
 With UTF-16, simply write the code point of a character into two bytes "as is".
-For instance, the UTF-16 representation for the capital Cyrillic "Ж" is in binary:
-00010110 00000100
+> UTF-16 is a fixed-width encoding.
+
+For instance, the UTF-16 representation for the capital Cyrillic "Ж" is 00010110 00000100 in binary.
 
 
 ## UTF-8 versus UTF-16 Matrix
@@ -87,11 +88,10 @@ For instance, the UTF-16 representation for the capital Cyrillic "Ж" is in bina
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDc3NjQ3NiwtNDAxMzE1OTU3LDEyOD
-cwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3NjAsNDcwMDg2NjUx
-LDIwNzg3ODgxLDI4MzQxODk1NCw5ODg5MDk4OTgsLTE3Nzg3MD
-UwODAsMjAxOTAwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1OSwy
-MDM4NjE1NzY0LDgxODM5OTMxOCwtNzc4NjM5OTksOTI5OTY0Mz
-M0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OSw5ODg4MjU5NjRdfQ==
-
+eyJoaXN0b3J5IjpbMTU1NTE1NDEyLC00MDEzMTU5NTcsMTI4Nz
+AxMzAxOCwyODQ3MTMxNjMsMjA5MTEwNzc2MCw0NzAwODY2NTEs
+MjA3ODc4ODEsMjgzNDE4OTU0LDk4ODkwOTg5OCwtMTc3ODcwNT
+A4MCwyMDE5MDAwODc4LDEwODIyNDg5NzcsNzM3NTUwNDU5LDIw
+Mzg2MTU3NjQsODE4Mzk5MzE4LC03Nzg2Mzk5OSw5Mjk5NjQzMz
+QsLTIwMTY2ODg4ODksMTQyMjEwNzQ5LDk4ODgyNTk2NF19
 -->
