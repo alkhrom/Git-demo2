@@ -2,7 +2,7 @@
 
 ## Why Unicode?
 
-Unicode has come as a solution to the problem of how to ensure consistent display of the vast variety of symbols (e.g. alphabet letters)
+Unicode has come as a solution to the problem of how to ensure consistent display of the vast variety of symbols, e.g. alphabet letters from different languages not to mention  special characters, 
 > Of course, if the entire Globe spoken English, and if emoji had never existed, and if ...and if ...,  there would have never been a need for anything else but the good old ASCII. 
 
 
@@ -89,8 +89,9 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzg3MDUwODAsMjAxOTAwMDg3OCwxMD
-gyMjQ4OTc3LDczNzU1MDQ1OSwyMDM4NjE1NzY0LDgxODM5OTMx
-OCwtNzc4NjM5OTksOTI5OTY0MzM0LC0yMDE2Njg4ODg5LDE0Mj
-IxMDc0OSw5ODg4MjU5NjQsLTE1ODg3OTY2Nl19
+eyJoaXN0b3J5IjpbNjMxODMyNTUwLC0xNzc4NzA1MDgwLDIwMT
+kwMDA4NzgsMTA4MjI0ODk3Nyw3Mzc1NTA0NTksMjAzODYxNTc2
+NCw4MTgzOTkzMTgsLTc3ODYzOTk5LDkyOTk2NDMzNCwtMjAxNj
+Y4ODg4OSwxNDIyMTA3NDksOTg4ODI1OTY0LC0xNTg4Nzk2NjZd
+fQ==
 -->
