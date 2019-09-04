@@ -8,7 +8,7 @@ The idea underlying the Unicode concept is to separate characters   as idealisti
 Unicode in itself is nothing else than a vast lookup table to map each and every character in the Unicode character set to its own code point.
 ![enter image description here](https://lh3.googleusercontent.com/i4KF4qMjV5-Q2Hp-lNxEdfEzD49m9Wx-aQl0Ug8nGx1s1t2sWh4Fl1bVQtb8O8zDGHdeyI31V90R)
 By convention, code points are commonly written in the format of U+XXXX~16~. For instance the code point for  the Cyrillic capital "Ж" is U+0416.
-As soon as the code point for a character is found, *encoding* comes into action to build an in-memory representation for the code point according to the encoding scheme rules (there may be, and actually are, different encoding schemes, mostly due to historical reasons).
+As soon as the code point for a character is found in, *encoding* comes into action to build an in-memory representation for the code point according to the encoding scheme rules (there may be, and actually are, different encoding schemes, mostly due to historical reasons).
 
 
 
@@ -90,9 +90,10 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwMDg2NjUxLDIwNzg3ODgxLDI4MzQxOD
-k1NCw5ODg5MDk4OTgsLTE3Nzg3MDUwODAsMjAxOTAwMDg3OCwx
-MDgyMjQ4OTc3LDczNzU1MDQ1OSwyMDM4NjE1NzY0LDgxODM5OT
-MxOCwtNzc4NjM5OTksOTI5OTY0MzM0LC0yMDE2Njg4ODg5LDE0
-MjIxMDc0OSw5ODg4MjU5NjQsLTE1ODg3OTY2Nl19
+eyJoaXN0b3J5IjpbNzk4NDc5ODAsNDcwMDg2NjUxLDIwNzg3OD
+gxLDI4MzQxODk1NCw5ODg5MDk4OTgsLTE3Nzg3MDUwODAsMjAx
+OTAwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1OSwyMDM4NjE1Nz
+Y0LDgxODM5OTMxOCwtNzc4NjM5OTksOTI5OTY0MzM0LC0yMDE2
+Njg4ODg5LDE0MjIxMDc0OSw5ODg4MjU5NjQsLTE1ODg3OTY2Nl
+19
 -->
