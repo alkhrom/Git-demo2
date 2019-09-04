@@ -78,7 +78,12 @@ The code point for capital Cyrillic "Ж" is "1046" (decimal) or "0416" (hex) or 
 		Next
 	End  Function
 	Function ToLong(intVal)
-		
+		If intVal < 0  Then
+			ToLong = CLng(intVal) + &H10000
+		Else
+			ToLong = CLng(intVal)
+		End  If
+	End  Function
 
 
 
@@ -107,11 +112,11 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4MTg3ODE5LDkwOTEzOTcwOCwtNzIxOD
-kyODE5LC04NTY4MTkwOTUsLTEyOTU3Mjk0MjYsLTIxMTEzMzk2
-MzAsLTQxODc0MDk0MiwtNDAxMzE1OTU3LDEyODcwMTMwMTgsMj
-g0NzEzMTYzLDIwOTExMDc3NjAsNDcwMDg2NjUxLDIwNzg3ODgx
-LDI4MzQxODk1NCw5ODg5MDk4OTgsLTE3Nzg3MDUwODAsMjAxOT
-AwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1OSwyMDM4NjE1NzY0
-XX0=
+eyJoaXN0b3J5IjpbLTExODcwODcwOTksOTg4MTg3ODE5LDkwOT
+EzOTcwOCwtNzIxODkyODE5LC04NTY4MTkwOTUsLTEyOTU3Mjk0
+MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0MiwtNDAxMzE1OTU3LD
+EyODcwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3NjAsNDcwMDg2
+NjUxLDIwNzg3ODgxLDI4MzQxODk1NCw5ODg5MDk4OTgsLTE3Nz
+g3MDUwODAsMjAxOTAwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1
+OV19
 -->
