@@ -20,7 +20,7 @@ As for the code points above 128 (dec), the UTF-8 rules to actually use as many 
 
 0x00000080 — 0x000007FF: 110xxxxx 10xxxxxx
 0x00000800 — 0x0000FFFF: 1110xxxx 10xxxxxx 10xxxxxx
-Etc
+Etc., up to 5 bytes (there is nothing to encode with 6 or more bytes).
 where:
 -  "110" is a a multi-byte mark
 -  "10" is a "code continued" mark
@@ -89,10 +89,11 @@ End  Function`
 ## UTF-8 versus UTF-16 Matrix
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NzAxMzAxOCwyODQ3MTMxNjMsMjA5MT
-EwNzc2MCw0NzAwODY2NTEsMjA3ODc4ODEsMjgzNDE4OTU0LDk4
-ODkwOTg5OCwtMTc3ODcwNTA4MCwyMDE5MDAwODc4LDEwODIyND
-g5NzcsNzM3NTUwNDU5LDIwMzg2MTU3NjQsODE4Mzk5MzE4LC03
-Nzg2Mzk5OSw5Mjk5NjQzMzQsLTIwMTY2ODg4ODksMTQyMjEwNz
-Q5LDk4ODgyNTk2NCwtMTU4ODc5NjY2XX0=
+eyJoaXN0b3J5IjpbLTEwNDA2MTYxODIsMTI4NzAxMzAxOCwyOD
+Q3MTMxNjMsMjA5MTEwNzc2MCw0NzAwODY2NTEsMjA3ODc4ODEs
+MjgzNDE4OTU0LDk4ODkwOTg5OCwtMTc3ODcwNTA4MCwyMDE5MD
+AwODc4LDEwODIyNDg5NzcsNzM3NTUwNDU5LDIwMzg2MTU3NjQs
+ODE4Mzk5MzE4LC03Nzg2Mzk5OSw5Mjk5NjQzMzQsLTIwMTY2OD
+g4ODksMTQyMjEwNzQ5LDk4ODgyNTk2NCwtMTU4ODc5NjY2XX0=
+
 -->
