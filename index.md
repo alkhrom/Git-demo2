@@ -14,7 +14,7 @@ The entire Unicode space allows 1 114 112 code points ranging from 0 to 10FFFF~1
 UTF-8 is an undeniable winner of the race among Unicode encoding schemes when it comes to memory saving and  reverse compatibility with ASCII simply due to the encoding rule#1, which rules:
  - Use one byte for points in the range from 0 to 127 (decimal) like this:
 	0x00000000 to 0x0000007F: 0xxxxxxx
-It is easy to see this is nothing else but the good old one-byte ASCII, so users within Latin alphabet domain would not even notice the difference.
+> It is easy to see this is nothing else but the good old one-byte ASCII, so users within Latin alphabet domain would not even notice the difference.
 
 As for the code points above 128 (dec), the UTF-8 rules to actually use as many bytes as needed (so it is a variable-width encoding) according to the scheme below:
 
@@ -88,10 +88,11 @@ For instance, the UTF-16 representation for the capital Cyrillic "Ж" is 0001011
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTE1NDEyLC00MDEzMTU5NTcsMTI4Nz
-AxMzAxOCwyODQ3MTMxNjMsMjA5MTEwNzc2MCw0NzAwODY2NTEs
-MjA3ODc4ODEsMjgzNDE4OTU0LDk4ODkwOTg5OCwtMTc3ODcwNT
-A4MCwyMDE5MDAwODc4LDEwODIyNDg5NzcsNzM3NTUwNDU5LDIw
-Mzg2MTU3NjQsODE4Mzk5MzE4LC03Nzg2Mzk5OSw5Mjk5NjQzMz
-QsLTIwMTY2ODg4ODksMTQyMjEwNzQ5LDk4ODgyNTk2NF19
+eyJoaXN0b3J5IjpbLTQxODc0MDk0MiwtNDAxMzE1OTU3LDEyOD
+cwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3NjAsNDcwMDg2NjUx
+LDIwNzg3ODgxLDI4MzQxODk1NCw5ODg5MDk4OTgsLTE3Nzg3MD
+UwODAsMjAxOTAwMDg3OCwxMDgyMjQ4OTc3LDczNzU1MDQ1OSwy
+MDM4NjE1NzY0LDgxODM5OTMxOCwtNzc4NjM5OTksOTI5OTY0Mz
+M0LC0yMDE2Njg4ODg5LDE0MjIxMDc0OSw5ODg4MjU5NjRdfQ==
+
 -->
