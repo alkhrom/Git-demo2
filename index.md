@@ -96,11 +96,15 @@ With UTF-16, simply write the code point of a character into two bytes "as is". 
 ## UTF-8 versus UTF-16 Matrix
 There is pretty much to say why UTF-8 seems, and actually is, more preferable to UTF-16 whenever it comes to quick efficient communications in most European languages, including, but bot limited to:
 
-A UTF-8 file that contains only ASCII  characters is identical to an ASCII file. Legacy programs can generally handle UTF-8 encoded files, even if they contain non-ASCII characters. For instance, the C    `printf`  function can print a UTF-8 string, as it only looks for the ASCII '%' character to define a formatting string, and prints all other bytes unchanged, thus non-ASCII characters will be output unchanged.
-UTF-8 encoded text files are less in size (hence, take less time to  transmit) with almost all languages except (not necessarily) for Asian hieroglyphics.
-UTF-16 seems much less robust to loss of data, specifically of odd number of bytes; should this happen, it garbles all the following text (whereas with UTF-8 it causes a loss of only one symbol).
+ - A UTF-8 file that contains only ASCII  characters is identical to an ASCII file. Legacy programs can generally handle UTF-8 encoded files, even if they contain non-ASCII characters. For instance, the C   `printf`  function can print a UTF-8 string, as it only looks for the ASCII '%' character to define a formatting string, and prints all other bytes unchanged, thus non-ASCII characters will be output unchanged. 
+ - UTF-8 encoded text files are less in size (hence, take
+   less time to  transmit) with almost all languages except (not
+   necessarily) for Asian hieroglyphics. 
+   UTF-16 seems much less robust to loss of data, specifically of odd number of bytes; should this
+   happen, it garbles all the following text (whereas with UTF-8 it
+   causes a loss of only one symbol).
 
-On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte encoding scheme, outdated now), which in its turn was an extension on ASCII approach onto two bytes instead of one. At that time UTF-8 didn't even exist, so contemporary software inventions, still popular today, such as [Win32 API](https://ru.wikipedia.org/wiki/Windows_API), [NTFS](https://ru.wikipedia.org/wiki/NTFS) and FAT use UTF-16LE.
+On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte encoding scheme, outdated now), which in its turn was an extension on ASCII approach onto two bytes instead of one. At that time UTF-8 didn't even exist, so contemporary software inventions, still popular today, such as [Win32 API](https://ru.wikipedia.org/wiki/Windows_API), [NTFS](https://ru.wikipedia.org/wiki/NTFS) and [FAT](https://ru.wikipedia.org/wiki/FAT) use UTF-16LE.
 
 # Digging Deeper Into Unicode
 
@@ -111,7 +115,7 @@ On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte 
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxNzkyODI2LDIwNzU3OTE0NDksMTA2Nz
+eyJoaXN0b3J5IjpbODY5MDU3ODQ3LDIwNzU3OTE0NDksMTA2Nz
 cwNTQ4MiwyMDE5MDE2MjYxLC03NzMyMDM1NzksMzkyMzc0MjI5
 LDk4ODE4NzgxOSw5MDkxMzk3MDgsLTcyMTg5MjgxOSwtODU2OD
 E5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5NjMwLC00MTg3NDA5
