@@ -3,7 +3,7 @@
 Unicode has come as a solution to the problem of how to ensure consistent display of an increasing variety of symbols (e.g. alphabet letters from different languages not to mention  special characters, emoji, heiroglyphics and much more) when it became clear it does not fit into 8-bit in-memory representation.
 > Of course, if the entire Globe had spoken English, and if emoji had never existed, and if ...and if ...,  there would have never been a need for anything else but the good old ASCII. 
 
-Unicode character set numbers over 128 000 symbols by now, which covers most all known alphabets, math and note signs, newly invented emoji, etc., yet the domain keeps on growing. Unicode is exactly what allows modern software display all this correctly in a uniform manner all across the globe.
+Unicode character set numbers over 128 000 symbols by now, far exceeding the ASCII limit of 256. The set covers most all known alphabets, math and note signs, newly invented emoji, etc., yet the domain keeps on growing. Unicode is exactly what allows modern software display all this correctly in a uniform manner all across the globe.
 ## Some Philosophy Behind Unicode
 The idea underlying the Unicode concept is to separate characters   as idealistic platonic entities from their in-memory representations by introducing the "magic numbers", or *code points*.
 
@@ -108,11 +108,11 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDY4NTQ4NDIsMjAxOTAxNjI2MSwtNz
-czMjAzNTc5LDM5MjM3NDIyOSw5ODgxODc4MTksOTA5MTM5NzA4
-LC03MjE4OTI4MTksLTg1NjgxOTA5NSwtMTI5NTcyOTQyNiwtMj
-ExMTMzOTYzMCwtNDE4NzQwOTQyLC00MDEzMTU5NTcsMTI4NzAx
-MzAxOCwyODQ3MTMxNjMsMjA5MTEwNzc2MCw0NzAwODY2NTEsMj
-A3ODc4ODEsMjgzNDE4OTU0LDk4ODkwOTg5OCwtMTc3ODcwNTA4
-MF19
+eyJoaXN0b3J5IjpbMTA2NzcwNTQ4MiwyMDE5MDE2MjYxLC03Nz
+MyMDM1NzksMzkyMzc0MjI5LDk4ODE4NzgxOSw5MDkxMzk3MDgs
+LTcyMTg5MjgxOSwtODU2ODE5MDk1LC0xMjk1NzI5NDI2LC0yMT
+ExMzM5NjMwLC00MTg3NDA5NDIsLTQwMTMxNTk1NywxMjg3MDEz
+MDE4LDI4NDcxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1MSwyMD
+c4Nzg4MSwyODM0MTg5NTQsOTg4OTA5ODk4LC0xNzc4NzA1MDgw
+XX0=
 -->
