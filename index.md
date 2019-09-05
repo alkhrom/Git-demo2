@@ -99,7 +99,7 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 
 
 
-# Digging Deeper Into The Unicode
+# Digging Deeper Into Unicode
 
 
 ## "High- and Low-endian" Versions of UTF-16
@@ -108,11 +108,11 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzcwNTQ4MiwyMDE5MDE2MjYxLC03Nz
-MyMDM1NzksMzkyMzc0MjI5LDk4ODE4NzgxOSw5MDkxMzk3MDgs
-LTcyMTg5MjgxOSwtODU2ODE5MDk1LC0xMjk1NzI5NDI2LC0yMT
-ExMzM5NjMwLC00MTg3NDA5NDIsLTQwMTMxNTk1NywxMjg3MDEz
-MDE4LDI4NDcxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1MSwyMD
-c4Nzg4MSwyODM0MTg5NTQsOTg4OTA5ODk4LC0xNzc4NzA1MDgw
-XX0=
+eyJoaXN0b3J5IjpbMjA3NTc5MTQ0OSwxMDY3NzA1NDgyLDIwMT
+kwMTYyNjEsLTc3MzIwMzU3OSwzOTIzNzQyMjksOTg4MTg3ODE5
+LDkwOTEzOTcwOCwtNzIxODkyODE5LC04NTY4MTkwOTUsLTEyOT
+U3Mjk0MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0MiwtNDAxMzE1
+OTU3LDEyODcwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3NjAsND
+cwMDg2NjUxLDIwNzg3ODgxLDI4MzQxODk1NCw5ODg5MDk4OThd
+fQ==
 -->
