@@ -3,7 +3,7 @@
 Unicode has come as a solution to the problem of how to ensure consistent display of an increasing variety of symbols (e.g. alphabet letters from different languages not to mention  special characters, emoji, heiroglyphics and much more) when it became clear it does not fit into 8-bit in-memory representation.
 > Of course, if the entire Globe had spoken English, and if emoji had never existed, and if ...and if ...,  there would have never been a need for anything else but the good old ASCII. 
 
-Unicode character set numbers over 128 000 symbols by now, far exceeding the ASCII limit of 256. The set covers most all known alphabets, math and note signs, newly invented emoji, etc., yet the domain keeps on growing. Unicode is exactly what allows modern software display all this correctly in a uniform manner all across the globe.
+Unicode character set numbers over 128 000 symbols by now, far exceeding the ASCII limit of 256. The set covers almost all known alphabets, math and note signs, newly invented emoji, etc., yet the domain keeps on growing. Unicode is exactly what allows modern software display all this correctly in a uniform manner all across the globe.
 ## Some Philosophy Behind Unicode
 The idea underlying the Unicode concept is to separate characters   as idealistic platonic entities from their in-memory representations by introducing the "magic numbers", or *code points*.
 
