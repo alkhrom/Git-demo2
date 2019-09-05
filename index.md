@@ -100,9 +100,7 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 UTF-8 encoded text files are less in size (hence, take less time to  transmit) with almost all languages except (not necessarily) for Asian hieroglyphics.
 UTF-16 seems much less robust to loss of data, specifically of odd number of bytes; should this happen, it garbles all the following text (whereas with UTF-8 it causes a loss of only one symbol).
 
-On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte encoding scheme, outdated now), which in its turn was an extension on ASCII approach onto two bytes instead of one. At that time UTF-8 didn't even exist, so contemporary software inventions, still popular today, such as Win32 API, NTFS and FAT used UTF-16LE.
-
-
+On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte encoding scheme, outdated now), which in its turn was an extension on ASCII approach onto two bytes instead of one. At that time UTF-8 didn't even exist, so contemporary software inventions, still popular today, such as [Win32 API](https://ru.wikipedia.org/wiki/Windows_API), [NTFS](https://ru.wikipedia.org/wiki/NTFS) and FAT use UTF-16LE.
 
 # Digging Deeper Into Unicode
 
@@ -113,11 +111,11 @@ On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte 
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzkwMzkwNywyMDc1NzkxNDQ5LDEwNj
-c3MDU0ODIsMjAxOTAxNjI2MSwtNzczMjAzNTc5LDM5MjM3NDIy
-OSw5ODgxODc4MTksOTA5MTM5NzA4LC03MjE4OTI4MTksLTg1Nj
-gxOTA5NSwtMTI5NTcyOTQyNiwtMjExMTMzOTYzMCwtNDE4NzQw
-OTQyLC00MDEzMTU5NTcsMTI4NzAxMzAxOCwyODQ3MTMxNjMsMj
-A5MTEwNzc2MCw0NzAwODY2NTEsMjA3ODc4ODEsMjgzNDE4OTU0
-XX0=
+eyJoaXN0b3J5IjpbMjIxNzkyODI2LDIwNzU3OTE0NDksMTA2Nz
+cwNTQ4MiwyMDE5MDE2MjYxLC03NzMyMDM1NzksMzkyMzc0MjI5
+LDk4ODE4NzgxOSw5MDkxMzk3MDgsLTcyMTg5MjgxOSwtODU2OD
+E5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5NjMwLC00MTg3NDA5
+NDIsLTQwMTMxNTk1NywxMjg3MDEzMDE4LDI4NDcxMzE2MywyMD
+kxMTA3NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4MSwyODM0MTg5NTRd
+fQ==
 -->
