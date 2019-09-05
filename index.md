@@ -94,10 +94,11 @@ With UTF-16, simply write the code point of a character into two bytes "as is". 
 
 
 ## UTF-8 versus UTF-16 Matrix
-There is pretty much to say why UTF-8 seems, and actually is, more preferable to UTF-16 whenever it comes to quick efficient communications in most European languages:
+There is pretty much to say why UTF-8 seems, and actually is, more preferable to UTF-16 whenever it comes to quick efficient communications in most European languages, including, 
 A UTF-8 file that contains only ASCII  characters is identical to an ASCII file. Legacy programs can generally handle UTF-8 encoded files, even if they contain non-ASCII characters. For instance, the C    `printf`  function can print a UTF-8 string, as it only looks for the ASCII '%' character to define a formatting string, and prints all other bytes unchanged, thus non-ASCII characters will be output unchanged.
 UTF-8 encoded text files are less in size (hence, take less time to  transmit) with almost all languages except (not necessarily) for Asian hieroglyphics.
-UTF-16 seems much less robust to loss of data, specifically of odd number of bytes; should this happen, it gbles 
+UTF-16 seems much less robust to loss of data, specifically of odd number of bytes; should this happen, it garbles all the following text (whereas with UTF-8 it causes a loss of only one symbol).
+On the other hand
 
 
 
@@ -110,11 +111,11 @@ UTF-16 seems much less robust to loss of data, specifically of odd number of byt
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzkwNDI5NSwyMDc1NzkxNDQ5LDEwNj
-c3MDU0ODIsMjAxOTAxNjI2MSwtNzczMjAzNTc5LDM5MjM3NDIy
-OSw5ODgxODc4MTksOTA5MTM5NzA4LC03MjE4OTI4MTksLTg1Nj
-gxOTA5NSwtMTI5NTcyOTQyNiwtMjExMTMzOTYzMCwtNDE4NzQw
-OTQyLC00MDEzMTU5NTcsMTI4NzAxMzAxOCwyODQ3MTMxNjMsMj
-A5MTEwNzc2MCw0NzAwODY2NTEsMjA3ODc4ODEsMjgzNDE4OTU0
-XX0=
+eyJoaXN0b3J5IjpbODg0MjEwOCwyMDc1NzkxNDQ5LDEwNjc3MD
+U0ODIsMjAxOTAxNjI2MSwtNzczMjAzNTc5LDM5MjM3NDIyOSw5
+ODgxODc4MTksOTA5MTM5NzA4LC03MjE4OTI4MTksLTg1NjgxOT
+A5NSwtMTI5NTcyOTQyNiwtMjExMTMzOTYzMCwtNDE4NzQwOTQy
+LC00MDEzMTU5NTcsMTI4NzAxMzAxOCwyODQ3MTMxNjMsMjA5MT
+EwNzc2MCw0NzAwODY2NTEsMjA3ODc4ODEsMjgzNDE4OTU0XX0=
+
 -->
