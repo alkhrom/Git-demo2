@@ -92,7 +92,9 @@ The code snippet below gives an example of what the code of a UTF-8 encoder may 
 ## How To Do The Same In UTF-16 
 With UTF-16, simply write the code point of a character into two bytes "as is". For instance, the UTF-16 representation for the capital Cyrillic "Ж" is 00010110 00000100 in binary. However, this only works with code points below FFFF~16~. Encoding of a bigger code point require more than two bytes, so UTF-16 is a variable-width encoding too, but the minimum code unit size is 2 bytes instead of 1 for UTF-8.
 
-```Procedure WriteUTF16Char(Code: UInt32)
+The code snippet below gives an illu:
+
+	Procedure WriteUTF16Char(Code: UInt32)
     If (Code < $10000) Then
         WriteWord(LoWord(Code))
     Else
@@ -102,10 +104,7 @@ With UTF-16, simply write the code point of a character into two bytes "as is". 
         WriteWord($D800 Or Hi10)
         WriteWord($DC00 Or Lo10)
     End If
-End Procedure```
-
-
-
+	End Procedure
 
 
 ## UTF-8 versus UTF-16 Matrix
@@ -129,11 +128,11 @@ On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte 
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODc4NTQxNCwtODMyODA1NDgyLDIwNz
-U3OTE0NDksMTA2NzcwNTQ4MiwyMDE5MDE2MjYxLC03NzMyMDM1
-NzksMzkyMzc0MjI5LDk4ODE4NzgxOSw5MDkxMzk3MDgsLTcyMT
-g5MjgxOSwtODU2ODE5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5
-NjMwLC00MTg3NDA5NDIsLTQwMTMxNTk1NywxMjg3MDEzMDE4LD
-I4NDcxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4
-MV19
+eyJoaXN0b3J5IjpbLTE5NDg1MjgzOTcsLTgzMjgwNTQ4MiwyMD
+c1NzkxNDQ5LDEwNjc3MDU0ODIsMjAxOTAxNjI2MSwtNzczMjAz
+NTc5LDM5MjM3NDIyOSw5ODgxODc4MTksOTA5MTM5NzA4LC03Mj
+E4OTI4MTksLTg1NjgxOTA5NSwtMTI5NTcyOTQyNiwtMjExMTMz
+OTYzMCwtNDE4NzQwOTQyLC00MDEzMTU5NTcsMTI4NzAxMzAxOC
+wyODQ3MTMxNjMsMjA5MTEwNzc2MCw0NzAwODY2NTEsMjA3ODc4
+ODFdfQ==
 -->
