@@ -96,6 +96,7 @@ With UTF-16, simply write the code point of a character into two bytes "as is". 
 ## UTF-8 versus UTF-16 Matrix
 There is pretty much to say why UTF-8 seems, and actually is, more preferable to UTF-16 whenever it comes to quick efficient communications in most European languages:
 A UTF-8 file that contains only ASCII  characters is identical to an ASCII file. Legacy programs can generally handle UTF-8 encoded files, even if they contain non-ASCII characters. For instance, the C    `printf`  function can print a UTF-8 string, as it only looks for the ASCII '%' character to define a formatting string, and prints all other bytes unchanged, thus non-ASCII characters will be output unchanged.
+UTF-8 encoded text files are less in size with almost all languages except for Asian hieroglyphics.
 
 
 
@@ -108,11 +109,11 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTc5MTQ0OSwxMDY3NzA1NDgyLDIwMT
-kwMTYyNjEsLTc3MzIwMzU3OSwzOTIzNzQyMjksOTg4MTg3ODE5
-LDkwOTEzOTcwOCwtNzIxODkyODE5LC04NTY4MTkwOTUsLTEyOT
-U3Mjk0MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0MiwtNDAxMzE1
-OTU3LDEyODcwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3NjAsND
-cwMDg2NjUxLDIwNzg3ODgxLDI4MzQxODk1NCw5ODg5MDk4OThd
+eyJoaXN0b3J5IjpbMjE2OTI2NTAyLDIwNzU3OTE0NDksMTA2Nz
+cwNTQ4MiwyMDE5MDE2MjYxLC03NzMyMDM1NzksMzkyMzc0MjI5
+LDk4ODE4NzgxOSw5MDkxMzk3MDgsLTcyMTg5MjgxOSwtODU2OD
+E5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5NjMwLC00MTg3NDA5
+NDIsLTQwMTMxNTk1NywxMjg3MDEzMDE4LDI4NDcxMzE2MywyMD
+kxMTA3NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4MSwyODM0MTg5NTRd
 fQ==
 -->
