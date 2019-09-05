@@ -92,6 +92,21 @@ The code snippet below gives an example of what the code of a UTF-8 encoder may 
 ## How To Do The Same In UTF-16 
 With UTF-16, simply write the code point of a character into two bytes "as is". For instance, the UTF-16 representation for the capital Cyrillic "Ж" is 00010110 00000100 in binary. However, this only works with code points below FFFF~16~. Encoding of a bigger code point require more than two bytes, so UTF-16 is a variable-width encoding too, but the minimum code unit size is 2 bytes instead of 1 for UTF-8.
 
+```Procedure WriteUTF16Char(Code: UInt32)
+    If (Code < $10000) Then
+        WriteWord(LoWord(Code))
+    Else
+        Code = Code - $10000
+        Var Lo10: Word = LoWord(Code And $3FF)
+        Var Hi10: Word = LoWord(Code Shr 10)
+        WriteWord($D800 Or Hi10)
+        WriteWord($DC00 Or Lo10)
+    End If
+End Procedure```
+
+
+
+
 
 ## UTF-8 versus UTF-16 Matrix
 There is pretty much to say why UTF-8 seems, and actually is, more preferable to UTF-16 whenever it comes to quick efficient communications in most European languages, including, but bot limited to:
@@ -114,11 +129,11 @@ On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte 
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjgwNTQ4MiwyMDc1NzkxNDQ5LDEwNj
-c3MDU0ODIsMjAxOTAxNjI2MSwtNzczMjAzNTc5LDM5MjM3NDIy
-OSw5ODgxODc4MTksOTA5MTM5NzA4LC03MjE4OTI4MTksLTg1Nj
-gxOTA5NSwtMTI5NTcyOTQyNiwtMjExMTMzOTYzMCwtNDE4NzQw
-OTQyLC00MDEzMTU5NTcsMTI4NzAxMzAxOCwyODQ3MTMxNjMsMj
-A5MTEwNzc2MCw0NzAwODY2NTEsMjA3ODc4ODEsMjgzNDE4OTU0
-XX0=
+eyJoaXN0b3J5IjpbMTU0ODc4NTQxNCwtODMyODA1NDgyLDIwNz
+U3OTE0NDksMTA2NzcwNTQ4MiwyMDE5MDE2MjYxLC03NzMyMDM1
+NzksMzkyMzc0MjI5LDk4ODE4NzgxOSw5MDkxMzk3MDgsLTcyMT
+g5MjgxOSwtODU2ODE5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5
+NjMwLC00MTg3NDA5NDIsLTQwMTMxNTk1NywxMjg3MDEzMDE4LD
+I4NDcxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1MSwyMDc4Nzg4
+MV19
 -->
