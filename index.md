@@ -107,7 +107,7 @@ The code snippet below gives an illustration to a possible UTF-encoding implemen
 	End Procedure
 
 
-## UTF-8 versus UTF-16 Matrix
+## UTF-8 versus UTF-16 
 There is pretty much to say why UTF-8 seems, and actually is, more preferable to UTF-16 whenever it comes to quick efficient communications in most European languages, including, but bot limited to:
 
  - A UTF-8 file that contains only ASCII  characters is identical to an ASCII file. Legacy programs can generally handle UTF-8 encoded files, even if they contain non-ASCII characters. For instance, the C   `printf`  function can print a UTF-8 string, as it only looks for the ASCII '%' character to define a formatting string, and prints all other bytes unchanged, thus non-ASCII characters will be output unchanged. 
