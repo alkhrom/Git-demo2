@@ -100,7 +100,7 @@ A UTF-8 file that contains only ASCII  characters is identical to an ASCII file.
 UTF-8 encoded text files are less in size (hence, take less time to  transmit) with almost all languages except (not necessarily) for Asian hieroglyphics.
 UTF-16 seems much less robust to loss of data, specifically of odd number of bytes; should this happen, it garbles all the following text (whereas with UTF-8 it causes a loss of only one symbol).
 
-On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte encoding schemeoutdated now), which in its turn was an extension on ASCII approach onto two bytes instead of one. At that time UTF-8 didn't even exist, so contemporary 
+On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte encoding scheme, outdated now), which in its turn was an extension on ASCII approach onto two bytes instead of one. At that time UTF-8 didn't even exist, so contemporary software inventions, such as Win32 API
 
 
 
@@ -113,11 +113,11 @@ On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte 
 ## Encoding Outside BMP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzcxNDAzODcsMjA3NTc5MTQ0OSwxMD
-Y3NzA1NDgyLDIwMTkwMTYyNjEsLTc3MzIwMzU3OSwzOTIzNzQy
-MjksOTg4MTg3ODE5LDkwOTEzOTcwOCwtNzIxODkyODE5LC04NT
-Y4MTkwOTUsLTEyOTU3Mjk0MjYsLTIxMTEzMzk2MzAsLTQxODc0
-MDk0MiwtNDAxMzE1OTU3LDEyODcwMTMwMTgsMjg0NzEzMTYzLD
-IwOTExMDc3NjAsNDcwMDg2NjUxLDIwNzg3ODgxLDI4MzQxODk1
-NF19
+eyJoaXN0b3J5IjpbMTA1ODUzMTQyNywyMDc1NzkxNDQ5LDEwNj
+c3MDU0ODIsMjAxOTAxNjI2MSwtNzczMjAzNTc5LDM5MjM3NDIy
+OSw5ODgxODc4MTksOTA5MTM5NzA4LC03MjE4OTI4MTksLTg1Nj
+gxOTA5NSwtMTI5NTcyOTQyNiwtMjExMTMzOTYzMCwtNDE4NzQw
+OTQyLC00MDEzMTU5NTcsMTI4NzAxMzAxOCwyODQ3MTMxNjMsMj
+A5MTEwNzc2MCw0NzAwODY2NTEsMjA3ODc4ODEsMjgzNDE4OTU0
+XX0=
 -->
