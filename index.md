@@ -126,13 +126,13 @@ On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte 
 
 
 ## Encoding Outside BMP
-R
+Right after ASCII had been extended onto fixed-width two-byte UCS-2, IT people were as naive as to think it would be enough forever. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDk0MzY0MSwxMDM0ODcxMDksLTgzMj
-gwNTQ4MiwyMDc1NzkxNDQ5LDEwNjc3MDU0ODIsMjAxOTAxNjI2
-MSwtNzczMjAzNTc5LDM5MjM3NDIyOSw5ODgxODc4MTksOTA5MT
-M5NzA4LC03MjE4OTI4MTksLTg1NjgxOTA5NSwtMTI5NTcyOTQy
-NiwtMjExMTMzOTYzMCwtNDE4NzQwOTQyLC00MDEzMTU5NTcsMT
-I4NzAxMzAxOCwyODQ3MTMxNjMsMjA5MTEwNzc2MCw0NzAwODY2
-NTFdfQ==
+eyJoaXN0b3J5IjpbMjg4NzA0NzQzLDEwMzQ4NzEwOSwtODMyOD
+A1NDgyLDIwNzU3OTE0NDksMTA2NzcwNTQ4MiwyMDE5MDE2MjYx
+LC03NzMyMDM1NzksMzkyMzc0MjI5LDk4ODE4NzgxOSw5MDkxMz
+k3MDgsLTcyMTg5MjgxOSwtODU2ODE5MDk1LC0xMjk1NzI5NDI2
+LC0yMTExMzM5NjMwLC00MTg3NDA5NDIsLTQwMTMxNTk1NywxMj
+g3MDEzMDE4LDI4NDcxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1
+MV19
 -->
