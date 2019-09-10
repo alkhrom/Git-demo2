@@ -126,13 +126,14 @@ On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte 
 
 
 ## Encoding Outside BMP
-Right after ASCII had been extended onto fixed-width two-byte UCS-2 to cover 65 536 symbols , IT people were as naive as to think it would be enough forever. However, it appeared pretty soon it wouldn't, so one more restructuring of the Unicode character set was undertaken to shape it as we
+Right after ASCII had been extended onto fixed-width two-byte UCS-2 to cover 65 536 symbols , IT people were as naive as to think it would be enough forever. However, it appeared pretty soon it wouldn't, so one more restructuring of the Unicode character set was undertaken to shape it in its currently valid manner, which is:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzcxMzU4NzcsMTAzNDg3MTA5LC04Mz
-I4MDU0ODIsMjA3NTc5MTQ0OSwxMDY3NzA1NDgyLDIwMTkwMTYy
-NjEsLTc3MzIwMzU3OSwzOTIzNzQyMjksOTg4MTg3ODE5LDkwOT
-EzOTcwOCwtNzIxODkyODE5LC04NTY4MTkwOTUsLTEyOTU3Mjk0
-MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0MiwtNDAxMzE1OTU3LD
-EyODcwMTMwMTgsMjg0NzEzMTYzLDIwOTExMDc3NjAsNDcwMDg2
-NjUxXX0=
+eyJoaXN0b3J5IjpbMjIwNzA5MzgwLDEwMzQ4NzEwOSwtODMyOD
+A1NDgyLDIwNzU3OTE0NDksMTA2NzcwNTQ4MiwyMDE5MDE2MjYx
+LC03NzMyMDM1NzksMzkyMzc0MjI5LDk4ODE4NzgxOSw5MDkxMz
+k3MDgsLTcyMTg5MjgxOSwtODU2ODE5MDk1LC0xMjk1NzI5NDI2
+LC0yMTExMzM5NjMwLC00MTg3NDA5NDIsLTQwMTMxNTk1NywxMj
+g3MDEzMDE4LDI4NDcxMzE2MywyMDkxMTA3NzYwLDQ3MDA4NjY1
+MV19
 -->
