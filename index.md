@@ -127,10 +127,11 @@ On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte 
 
 ## Encoding Outside BMP
 Right after ASCII had been extended onto fixed-width two-byte UCS-2 to cover 65 536 symbols , IT people were as naive as to think it would be enough forever. However, it appeared pretty soon it wouldn't, so one more restructuring of the Unicode character set was undertaken to shape it as we know it today, which is:
-The former USC-2 character set is now referred to as the Basic Multilinguial  Plane (BMP)
+The former USC-2 character set is now referred to as the Basic Multilinguial  Plane (BMP).
+It numbers 2
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODI5MDUwNywxMDM0ODcxMDksLTgzMj
+eyJoaXN0b3J5IjpbMTQ5MzM1NzEwOCwxMDM0ODcxMDksLTgzMj
 gwNTQ4MiwyMDc1NzkxNDQ5LDEwNjc3MDU0ODIsMjAxOTAxNjI2
 MSwtNzczMjAzNTc5LDM5MjM3NDIyOSw5ODgxODc4MTksOTA5MT
 M5NzA4LC03MjE4OTI4MTksLTg1NjgxOTA5NSwtMTI5NTcyOTQy
