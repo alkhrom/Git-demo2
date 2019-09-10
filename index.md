@@ -130,9 +130,11 @@ Right after ASCII had been extended onto fixed-width two-byte UCS-2 to cover 65 
 The former USC-2 character set is now referred to as the Basic Multilinguial  Plane (BMP).
 It numbers 2<sup>16</sup> code points, of which:
 E000 - F8FF  are reserved for private use (private use area).
-D800  - DBFF are 
+D800  - DBFF are *high surrogates*.
+DC00 - DFFF are *low surrogates*.
+BM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzU2ODM5Miw3MDE0NjExNzAsMTQ5Mz
+eyJoaXN0b3J5IjpbLTQ2MjM0NDA3NSw3MDE0NjExNzAsMTQ5Mz
 M1NzEwOCwxMDM0ODcxMDksLTgzMjgwNTQ4MiwyMDc1NzkxNDQ5
 LDEwNjc3MDU0ODIsMjAxOTAxNjI2MSwtNzczMjAzNTc5LDM5Mj
 M3NDIyOSw5ODgxODc4MTksOTA5MTM5NzA4LC03MjE4OTI4MTks
