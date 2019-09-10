@@ -134,12 +134,14 @@ It numbers 2<sup>16</sup> code points, of which:
     - E000 - F8FF  are reserved for private use (private use area).
     - D800  - DBFF and DC00 - DFFF  are the so-called  *high surrogates* and *low surrogates*, respectively, as explained below.
 >BMB characters take two bytes to encode.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODcyNzI2OCw3MDE0NjExNzAsMTQ5Mz
-M1NzEwOCwxMDM0ODcxMDksLTgzMjgwNTQ4MiwyMDc1NzkxNDQ5
-LDEwNjc3MDU0ODIsMjAxOTAxNjI2MSwtNzczMjAzNTc5LDM5Mj
-M3NDIyOSw5ODgxODc4MTksOTA5MTM5NzA4LC03MjE4OTI4MTks
-LTg1NjgxOTA5NSwtMTI5NTcyOTQyNiwtMjExMTMzOTYzMCwtND
-E4NzQwOTQyLC00MDEzMTU5NTcsMTI4NzAxMzAxOCwyODQ3MTMx
-NjNdfQ==
+eyJoaXN0b3J5IjpbLTExODg1MzI2NzIsNzAxNDYxMTcwLDE0OT
+MzNTcxMDgsMTAzNDg3MTA5LC04MzI4MDU0ODIsMjA3NTc5MTQ0
+OSwxMDY3NzA1NDgyLDIwMTkwMTYyNjEsLTc3MzIwMzU3OSwzOT
+IzNzQyMjksOTg4MTg3ODE5LDkwOTEzOTcwOCwtNzIxODkyODE5
+LC04NTY4MTkwOTUsLTEyOTU3Mjk0MjYsLTIxMTEzMzk2MzAsLT
+QxODc0MDk0MiwtNDAxMzE1OTU3LDEyODcwMTMwMTgsMjg0NzEz
+MTYzXX0=
 -->
