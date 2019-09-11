@@ -24,7 +24,7 @@ Unicode in itself is nothing else than a vast lookup table to map each and every
 By convention, code points are commonly written in the format of U+XXXX~16~. For instance the code point for  the Cyrillic capital "Ж" is U+0416.
 As soon as the code point for a character is found in the lookup table, *encoding* comes into action to build an in-memory representation for the code point according to the encoding scheme rules (there may be, and actually are, different encoding schemes, mostly due to historical reasons, e.g. UCS-2, UTF-32, etc.).
 The entire Unicode space allows 1 114 112 code points ranging from 0 to 10FFFF~16~, of which only  128 237 are actually defined in v 9.0 of The Standard. The space can be structured by *planes*, of which the Plane 0 (Basic Multilingual Plane, BMP) accommodates characters for almost all modern languages, and a large number of symbols.
-## How To Encode a Character in UTF-8 
+## <a name="bookmark></How To Encode a Character in UTF-8 
 UTF-8 is an undeniable winner of the race among Unicode encoding schemes when it comes to memory saving and  reverse compatibility with ASCII simply due to the encoding rule#1, which rules:
  - Use one byte for points in the range from 0 to 127 (decimal) like this:
 	0x00000000 to 0x0000007F: 0xxxxxxx
@@ -168,11 +168,11 @@ Other planes follow next numbered Plane 2 ... Plane 16, each 65 536 points in si
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxOTc1ODYyLDgwNDYzODMwNCw1MTU0ND
-k5MTEsLTExODg1MzI2NzIsNzAxNDYxMTcwLDE0OTMzNTcxMDgs
-MTAzNDg3MTA5LC04MzI4MDU0ODIsMjA3NTc5MTQ0OSwxMDY3Nz
-A1NDgyLDIwMTkwMTYyNjEsLTc3MzIwMzU3OSwzOTIzNzQyMjks
-OTg4MTg3ODE5LDkwOTEzOTcwOCwtNzIxODkyODE5LC04NTY4MT
-kwOTUsLTEyOTU3Mjk0MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0
-Ml19
+eyJoaXN0b3J5IjpbLTExODg3MTUwNzYsODYxOTc1ODYyLDgwND
+YzODMwNCw1MTU0NDk5MTEsLTExODg1MzI2NzIsNzAxNDYxMTcw
+LDE0OTMzNTcxMDgsMTAzNDg3MTA5LC04MzI4MDU0ODIsMjA3NT
+c5MTQ0OSwxMDY3NzA1NDgyLDIwMTkwMTYyNjEsLTc3MzIwMzU3
+OSwzOTIzNzQyMjksOTg4MTg3ODE5LDkwOTEzOTcwOCwtNzIxOD
+kyODE5LC04NTY4MTkwOTUsLTEyOTU3Mjk0MjYsLTIxMTEzMzk2
+MzBdfQ==
 -->
