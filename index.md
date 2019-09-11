@@ -142,13 +142,13 @@ As of Unicode 12.1, the BMP comprises the [163 blocks of characters](https://en.
 
 ### Surrogates for Encoding Outside BMP
 
-Code points above U+FFFF obviously take more than 16 bits to encode.
+Code points from U+FFFF to U+10FFFF (the Unicode top limit) obviously take more than 16 bits to encode.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0NjM4MzA0LDUxNTQ0OTkxMSwtMTE4OD
-UzMjY3Miw3MDE0NjExNzAsMTQ5MzM1NzEwOCwxMDM0ODcxMDks
-LTgzMjgwNTQ4MiwyMDc1NzkxNDQ5LDEwNjc3MDU0ODIsMjAxOT
-AxNjI2MSwtNzczMjAzNTc5LDM5MjM3NDIyOSw5ODgxODc4MTks
-OTA5MTM5NzA4LC03MjE4OTI4MTksLTg1NjgxOTA5NSwtMTI5NT
-cyOTQyNiwtMjExMTMzOTYzMCwtNDE4NzQwOTQyLC00MDEzMTU5
-NTddfQ==
+eyJoaXN0b3J5IjpbMTkzNjM0NDI1Miw4MDQ2MzgzMDQsNTE1ND
+Q5OTExLC0xMTg4NTMyNjcyLDcwMTQ2MTE3MCwxNDkzMzU3MTA4
+LDEwMzQ4NzEwOSwtODMyODA1NDgyLDIwNzU3OTE0NDksMTA2Nz
+cwNTQ4MiwyMDE5MDE2MjYxLC03NzMyMDM1NzksMzkyMzc0MjI5
+LDk4ODE4NzgxOSw5MDkxMzk3MDgsLTcyMTg5MjgxOSwtODU2OD
+E5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5NjMwLC00MTg3NDA5
+NDJdfQ==
 -->
