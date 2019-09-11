@@ -138,17 +138,17 @@ It numbers 2<sup>16</sup> code points ranging from U+0000 to U+FFFF, of which:
 
 A BMB character takes one (the ASCII subset) or two code units to encode with UTF-8, and one unit - with UTF-16.
 
-As of Unicode 12.1, the BMP comprises the 163 blocks of characters including, yet far not limited to, all European alphabets, basic mathematics notations, etc.
+As of Unicode 12.1, the BMP comprises the [163 blocks of characters](https://en.wikipedia.org/wiki/Plane_%28Unicode%29#Basic_Multilingual_Plane) including, yet far not limited to, all European alphabets, basic mathematics notations, etc.
 
 ### Surrogates for Encoding Outside BMP
 
-Code points above U+FFFF obviously take more than 16 bits to encode
+Code points above U+FFFF obviously take more than 16 bits to encode.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTUyOTA5OSw1MTU0NDk5MTEsLTExOD
-g1MzI2NzIsNzAxNDYxMTcwLDE0OTMzNTcxMDgsMTAzNDg3MTA5
-LC04MzI4MDU0ODIsMjA3NTc5MTQ0OSwxMDY3NzA1NDgyLDIwMT
-kwMTYyNjEsLTc3MzIwMzU3OSwzOTIzNzQyMjksOTg4MTg3ODE5
-LDkwOTEzOTcwOCwtNzIxODkyODE5LC04NTY4MTkwOTUsLTEyOT
-U3Mjk0MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0MiwtNDAxMzE1
-OTU3XX0=
+eyJoaXN0b3J5IjpbODA0NjM4MzA0LDUxNTQ0OTkxMSwtMTE4OD
+UzMjY3Miw3MDE0NjExNzAsMTQ5MzM1NzEwOCwxMDM0ODcxMDks
+LTgzMjgwNTQ4MiwyMDc1NzkxNDQ5LDEwNjc3MDU0ODIsMjAxOT
+AxNjI2MSwtNzczMjAzNTc5LDM5MjM3NDIyOSw5ODgxODc4MTks
+OTA5MTM5NzA4LC03MjE4OTI4MTksLTg1NjgxOTA5NSwtMTI5NT
+cyOTQyNiwtMjExMTMzOTYzMCwtNDE4NzQwOTQyLC00MDEzMTU5
+NTddfQ==
 -->
