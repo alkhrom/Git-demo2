@@ -148,14 +148,17 @@ With UTF-8 the encoding scheme works as described to output 3, 4 or 5 code units
 
 With UTF-16 two code units become needed (16 bits, or 2 bytes, each), of which one comes as a high surrogate, the other as a low one. Each surrogate is 10 bits long, which produces 2<sup>10</sup> 2<sup>10</sup>=2<sup>20</sup> pair combinations strictly equal to the total number of code points to encode.
 In more detail, for a code point above U+10000 do the following to encode it in UTF-16:
-Subtract 10000<sub>16</sub> from it to obtain a 20-bit number.
-Take a high surrogate to encode the first 10 bits and a low one for the remaining  
+
+ 1. Subtract 10000<sub>16</sub> from it to obtain a 20-bit number.
+ 2. Take a high surrogate to encode the first 10 bits and a low one for the remaining 10.
+
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTc0Njc2ODQsODA0NjM4MzA0LDUxNT
-Q0OTkxMSwtMTE4ODUzMjY3Miw3MDE0NjExNzAsMTQ5MzM1NzEw
-OCwxMDM0ODcxMDksLTgzMjgwNTQ4MiwyMDc1NzkxNDQ5LDEwNj
-c3MDU0ODIsMjAxOTAxNjI2MSwtNzczMjAzNTc5LDM5MjM3NDIy
-OSw5ODgxODc4MTksOTA5MTM5NzA4LC03MjE4OTI4MTksLTg1Nj
-gxOTA5NSwtMTI5NTcyOTQyNiwtMjExMTMzOTYzMCwtNDE4NzQw
-OTQyXX0=
+eyJoaXN0b3J5IjpbMTE4OTgyMDExNCw4MDQ2MzgzMDQsNTE1ND
+Q5OTExLC0xMTg4NTMyNjcyLDcwMTQ2MTE3MCwxNDkzMzU3MTA4
+LDEwMzQ4NzEwOSwtODMyODA1NDgyLDIwNzU3OTE0NDksMTA2Nz
+cwNTQ4MiwyMDE5MDE2MjYxLC03NzMyMDM1NzksMzkyMzc0MjI5
+LDk4ODE4NzgxOSw5MDkxMzk3MDgsLTcyMTg5MjgxOSwtODU2OD
+E5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5NjMwLC00MTg3NDA5
+NDJdfQ==
 -->
