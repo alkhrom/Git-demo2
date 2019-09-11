@@ -126,19 +126,23 @@ On the other hand, UTF-16 historically comes from USC-2 (a fixed-width two-byte 
 
 
 ## Encoding In- and Outside BMP
-Right after ASCII had been extended onto fixed-width two-byte UCS-2 to cover 65 536 symbols , IT people were as naive as to think it would be enough forever. However, it appeared pretty soon it wouldn't, so one more restructuring of the Unicode character set was undertaken to shape it as we know it today, which is:
+Right after ASCII had been extended onto fixed-width two-byte UCS-2 to cover 65 536 symbols , IT people were as naive as to think it would be enough forever. However, it appeared pretty soon it wouldn't, so one more restructuring of the Unicode character set was undertaken to shape it as we know it today, which is like described below.
 
- - The former USC-2 character set is now referred to as the Basic Multilinguial  Plane (BMP).
+### The BMP
+
+The former USC-2 character set is now referred to as the Basic Multilinguial  Plane (BMP).
 
 It numbers 2<sup>16</sup> code points, of which:
     - E000 - F8FF  are reserved for private use (private use area).
     - D800  - DBFF and DC00 - DFFF  are the so-called  *high surrogates* and *low surrogates*, respectively, as explained below.
 
 A BMB character takes one (the ASCII subset) or two code units to encode with UTF-8, and two units - with UTF-16.
+
 As of Unicode 12.1, the BMP comprises the 163 blocks of characters including, yet far not limited to, all European alphabets, basic mathematics notations, etc.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzUyNzE1NSw1MTU0NDk5MTEsLTExOD
+eyJoaXN0b3J5IjpbLTk2NjAwODE1NCw1MTU0NDk5MTEsLTExOD
 g1MzI2NzIsNzAxNDYxMTcwLDE0OTMzNTcxMDgsMTAzNDg3MTA5
 LC04MzI4MDU0ODIsMjA3NTc5MTQ0OSwxMDY3NzA1NDgyLDIwMT
 kwMTYyNjEsLTc3MzIwMzU3OSwzOTIzNzQyMjksOTg4MTg3ODE5
