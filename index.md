@@ -24,14 +24,14 @@ Unicode in itself is nothing else than a vast lookup table to map each and every
 By convention, code points are commonly written in the format of U+XXXX~16~. For instance the code point for  the Cyrillic capital "Ж" is U+0416.
 As soon as the code point for a character is found in the lookup table, *encoding* comes into action to build an in-memory representation for the code point according to the encoding scheme rules (there may be, and actually are, different encoding schemes, mostly due to historical reasons, e.g. UCS-2, UTF-32, etc.).
 The entire Unicode space allows 1 114 112 code points ranging from 0 to 10FFFF~16~, of which only  128 237 are actually defined in v 9.0 of The Standard. The space can be structured by *planes*, of which the Plane 0 (Basic Multilingual Plane, BMP) accommodates characters for almost all modern languages, and a large number of symbols.
-## <a name="bookmark></How To Encode a Character in UTF-8 
+## How To Encode a Character in UTF-8 
 UTF-8 is an undeniable winner of the race among Unicode encoding schemes when it comes to memory saving and  reverse compatibility with ASCII simply due to the encoding rule#1, which rules:
  - Use one byte for points in the range from 0 to 127 (decimal) like this:
 	0x00000000 to 0x0000007F: 0xxxxxxx
 
 > It is easy to see this is nothing else but the good old one-byte ASCII, so legacy software that knows nothing about Unicode would not even notice the difference.
 
-As for the code points above 128 (dec), the UTF-8 rules to actually use as many bytes as needed (so it is a variable-width encoding) according to the scheme below:
+<a name></a> As for the code points above 128 (dec), the UTF-8 rules to actually use as many bytes as needed (so it is a variable-width encoding) according to the scheme below:
 
 0x00000080 — 0x000007FF: 110xxxxx 10xxxxxx
 
@@ -168,11 +168,11 @@ Other planes follow next numbered Plane 2 ... Plane 16, each 65 536 points in si
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODg3MTUwNzYsODYxOTc1ODYyLDgwND
-YzODMwNCw1MTU0NDk5MTEsLTExODg1MzI2NzIsNzAxNDYxMTcw
-LDE0OTMzNTcxMDgsMTAzNDg3MTA5LC04MzI4MDU0ODIsMjA3NT
-c5MTQ0OSwxMDY3NzA1NDgyLDIwMTkwMTYyNjEsLTc3MzIwMzU3
-OSwzOTIzNzQyMjksOTg4MTg3ODE5LDkwOTEzOTcwOCwtNzIxOD
-kyODE5LC04NTY4MTkwOTUsLTEyOTU3Mjk0MjYsLTIxMTEzMzk2
-MzBdfQ==
+eyJoaXN0b3J5IjpbMTgxNzc1OTYzNiw4NjE5NzU4NjIsODA0Nj
+M4MzA0LDUxNTQ0OTkxMSwtMTE4ODUzMjY3Miw3MDE0NjExNzAs
+MTQ5MzM1NzEwOCwxMDM0ODcxMDksLTgzMjgwNTQ4MiwyMDc1Nz
+kxNDQ5LDEwNjc3MDU0ODIsMjAxOTAxNjI2MSwtNzczMjAzNTc5
+LDM5MjM3NDIyOSw5ODgxODc4MTksOTA5MTM5NzA4LC03MjE4OT
+I4MTksLTg1NjgxOTA5NSwtMTI5NTcyOTQyNiwtMjExMTMzOTYz
+MF19
 -->
