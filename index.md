@@ -150,11 +150,11 @@ With UTF-16 two code units become needed (16 bits, or 2 bytes, each), of which o
 In more detail, for a code point above U+10000 do the following to encode it in UTF-16:
 
  1. Subtract 10000<sub>16</sub> from it to obtain a 20-bit number.
- 2. Take a high surrogate to encode the first 10 bits and a low one for the remaining 10.
+ 2. Take a high surrogate to encode the first 10 bits and a low one for the remaining 10 (the UTF-16BE version) or vice versa (the UTF-16LE one).
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4OTgyMDExNCw4MDQ2MzgzMDQsNTE1ND
+eyJoaXN0b3J5IjpbLTMwMjUxNDExOSw4MDQ2MzgzMDQsNTE1ND
 Q5OTExLC0xMTg4NTMyNjcyLDcwMTQ2MTE3MCwxNDkzMzU3MTA4
 LDEwMzQ4NzEwOSwtODMyODA1NDgyLDIwNzU3OTE0NDksMTA2Nz
 cwNTQ4MiwyMDE5MDE2MjYxLC03NzMyMDM1NzksMzkyMzc0MjI5
