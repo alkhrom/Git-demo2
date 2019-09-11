@@ -160,22 +160,19 @@ The Supplementary Multilinguial Plane (SMP) follows the BMP to accommodate code 
 
 Other planes follow next numbered Plane 2 ... Plane 16, each 65 536 points in size of which:
 
- - Plane 2 contains [CJK Unified
-   Ideographs](https://en.wikipedia.org/wiki/Han_unification)
-   
-   Planes 3 to Plane 13 do not have characters assigned yet. 
-
-Plane 14 has tag
-   charaters, in particular. Planes 15 and 16 are defined as "private
-   use planes".
+ - Plane 2 contains [CJK Unified Ideographs](https://en.wikipedia.org/wiki/Han_unification)
+      
+ - Planes 3 to Plane 13 do not have characters assigned yet.
+ - Plane 14 has tag characters, in particular.
+ - Planes 15 and 16 are defined as "private use planes".
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzEwNTUwMDgsODA0NjM4MzA0LDUxNT
-Q0OTkxMSwtMTE4ODUzMjY3Miw3MDE0NjExNzAsMTQ5MzM1NzEw
-OCwxMDM0ODcxMDksLTgzMjgwNTQ4MiwyMDc1NzkxNDQ5LDEwNj
-c3MDU0ODIsMjAxOTAxNjI2MSwtNzczMjAzNTc5LDM5MjM3NDIy
-OSw5ODgxODc4MTksOTA5MTM5NzA4LC03MjE4OTI4MTksLTg1Nj
-gxOTA5NSwtMTI5NTcyOTQyNiwtMjExMTMzOTYzMCwtNDE4NzQw
-OTQyXX0=
+eyJoaXN0b3J5IjpbODYxOTc1ODYyLDgwNDYzODMwNCw1MTU0ND
+k5MTEsLTExODg1MzI2NzIsNzAxNDYxMTcwLDE0OTMzNTcxMDgs
+MTAzNDg3MTA5LC04MzI4MDU0ODIsMjA3NTc5MTQ0OSwxMDY3Nz
+A1NDgyLDIwMTkwMTYyNjEsLTc3MzIwMzU3OSwzOTIzNzQyMjks
+OTg4MTg3ODE5LDkwOTEzOTcwOCwtNzIxODkyODE5LC04NTY4MT
+kwOTUsLTEyOTU3Mjk0MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0
+Ml19
 -->
