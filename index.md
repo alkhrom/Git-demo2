@@ -145,13 +145,13 @@ As of Unicode 12.1, the BMP comprises the [163 blocks of characters](https://en.
 Code points from U+010000 to U+10FFFF (the Unicode top limit) obviously take more than 16 bits to encode - this is exactly what *surrogate pairs*, or simply *surrogates* are for. There are 2<sup>20</sup> such points totally.
 
 With UTF-8 the encoding scheme works as described to output 3, 4 or 5 code units.
-With UTF-16 two code units are needed (16 bits, or 2 bytes, each), of which one comes as a high surrogate, the other as a low one.
+With UTF-16 two code units are needed (16 bits, or 2 bytes, each), of which one comes as a high surrogate, the other as a low one. Each surrogate is 10 bits long, which produces 2<sup>10<
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyMzU2NjkyLDgwNDYzODMwNCw1MTU0ND
-k5MTEsLTExODg1MzI2NzIsNzAxNDYxMTcwLDE0OTMzNTcxMDgs
-MTAzNDg3MTA5LC04MzI4MDU0ODIsMjA3NTc5MTQ0OSwxMDY3Nz
-A1NDgyLDIwMTkwMTYyNjEsLTc3MzIwMzU3OSwzOTIzNzQyMjks
-OTg4MTg3ODE5LDkwOTEzOTcwOCwtNzIxODkyODE5LC04NTY4MT
-kwOTUsLTEyOTU3Mjk0MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0
-Ml19
+eyJoaXN0b3J5IjpbLTE2MDM4ODg4MSw4MDQ2MzgzMDQsNTE1ND
+Q5OTExLC0xMTg4NTMyNjcyLDcwMTQ2MTE3MCwxNDkzMzU3MTA4
+LDEwMzQ4NzEwOSwtODMyODA1NDgyLDIwNzU3OTE0NDksMTA2Nz
+cwNTQ4MiwyMDE5MDE2MjYxLC03NzMyMDM1NzksMzkyMzc0MjI5
+LDk4ODE4NzgxOSw5MDkxMzk3MDgsLTcyMTg5MjgxOSwtODU2OD
+E5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5NjMwLC00MTg3NDA5
+NDJdfQ==
 -->
