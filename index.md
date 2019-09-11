@@ -142,9 +142,9 @@ As of Unicode 12.1, the BMP comprises the [163 blocks of characters](https://en.
 
 ### Surrogates for Encoding Outside BMP
 
-Code points from U+FFFF to U+10FFFF (the Unicode top limit) obviously take more than 16 bits to encode.
+Code points from U+010000 to U+10FFFF (the Unicode top limit) obviously take more than 16 bits to encode - this is exactly what *surrogate pairs*, or simply *surrogates* are for.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjM0NDI1Miw4MDQ2MzgzMDQsNTE1ND
+eyJoaXN0b3J5IjpbMTAzNTExNTk1NCw4MDQ2MzgzMDQsNTE1ND
 Q5OTExLC0xMTg4NTMyNjcyLDcwMTQ2MTE3MCwxNDkzMzU3MTA4
 LDEwMzQ4NzEwOSwtODMyODA1NDgyLDIwNzU3OTE0NDksMTA2Nz
 cwNTQ4MiwyMDE5MDE2MjYxLC03NzMyMDM1NzksMzkyMzc0MjI5
