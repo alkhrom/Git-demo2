@@ -156,15 +156,17 @@ In more detail, for a code point above U+10000 do the following to encode it in 
 
 The Supplementary Multilinguial Plane (SMP) follows the BMP to accommodate code points from 10000 to 1FFFF being the same 65 536 points in size. Those points represent e.g. [Linear B](https://en.wikipedia.org/wiki/Linear_B), [Egyptian hieroglyphs](https://en.wikipedia.org/wiki/Egyptian_hieroglyphs "Egyptian hieroglyphs"), and [cuneiform](https://en.wikipedia.org/wiki/Cuneiform "Cuneiform") scripts and much more, 127 character blocks altogether.
 
-Other Planes
-Other planes follow next numbered Plane 2 ... Plane 16, 
+### Other Planes
+
+Other planes follow next numbered Plane 2 ... Plane 16, each 65 536 points in size of which:
+Plane 2 contains 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjAzNjcwMzksODA0NjM4MzA0LDUxNT
-Q0OTkxMSwtMTE4ODUzMjY3Miw3MDE0NjExNzAsMTQ5MzM1NzEw
-OCwxMDM0ODcxMDksLTgzMjgwNTQ4MiwyMDc1NzkxNDQ5LDEwNj
-c3MDU0ODIsMjAxOTAxNjI2MSwtNzczMjAzNTc5LDM5MjM3NDIy
-OSw5ODgxODc4MTksOTA5MTM5NzA4LC03MjE4OTI4MTksLTg1Nj
-gxOTA5NSwtMTI5NTcyOTQyNiwtMjExMTMzOTYzMCwtNDE4NzQw
-OTQyXX0=
+eyJoaXN0b3J5IjpbMTkxNDkwMjM5MCw4MDQ2MzgzMDQsNTE1ND
+Q5OTExLC0xMTg4NTMyNjcyLDcwMTQ2MTE3MCwxNDkzMzU3MTA4
+LDEwMzQ4NzEwOSwtODMyODA1NDgyLDIwNzU3OTE0NDksMTA2Nz
+cwNTQ4MiwyMDE5MDE2MjYxLC03NzMyMDM1NzksMzkyMzc0MjI5
+LDk4ODE4NzgxOSw5MDkxMzk3MDgsLTcyMTg5MjgxOSwtODU2OD
+E5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5NjMwLC00MTg3NDA5
+NDJdfQ==
 -->
