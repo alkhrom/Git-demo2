@@ -133,15 +133,16 @@ Right after ASCII had been extended onto fixed-width two-byte UCS-2 to cover 65 
 It numbers 2<sup>16</sup> code points, of which:
     - E000 - F8FF  are reserved for private use (private use area).
     - D800  - DBFF and DC00 - DFFF  are the so-called  *high surrogates* and *low surrogates*, respectively, as explained below.
->BMB characters take two bytes to encode.
+
+A BMB character takes one (the ASCII subset) or two code units to encode with UTF-8 two bytes to encode.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODg1MzI2NzIsNzAxNDYxMTcwLDE0OT
-MzNTcxMDgsMTAzNDg3MTA5LC04MzI4MDU0ODIsMjA3NTc5MTQ0
-OSwxMDY3NzA1NDgyLDIwMTkwMTYyNjEsLTc3MzIwMzU3OSwzOT
-IzNzQyMjksOTg4MTg3ODE5LDkwOTEzOTcwOCwtNzIxODkyODE5
-LC04NTY4MTkwOTUsLTEyOTU3Mjk0MjYsLTIxMTEzMzk2MzAsLT
-QxODc0MDk0MiwtNDAxMzE1OTU3LDEyODcwMTMwMTgsMjg0NzEz
-MTYzXX0=
+eyJoaXN0b3J5IjpbMTM3MTY4MDY2NiwtMTE4ODUzMjY3Miw3MD
+E0NjExNzAsMTQ5MzM1NzEwOCwxMDM0ODcxMDksLTgzMjgwNTQ4
+MiwyMDc1NzkxNDQ5LDEwNjc3MDU0ODIsMjAxOTAxNjI2MSwtNz
+czMjAzNTc5LDM5MjM3NDIyOSw5ODgxODc4MTksOTA5MTM5NzA4
+LC03MjE4OTI4MTksLTg1NjgxOTA5NSwtMTI5NTcyOTQyNiwtMj
+ExMTMzOTYzMCwtNDE4NzQwOTQyLC00MDEzMTU5NTcsMTI4NzAx
+MzAxOF19
 -->
