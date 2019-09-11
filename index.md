@@ -132,7 +132,7 @@ Right after ASCII had been extended onto fixed-width two-byte UCS-2 to cover 65 
 
 The former USC-2 character set is now referred to as the Basic Multilinguial  Plane (BMP).
 
-It numbers 2<sup>16</sup> code points, of which:
+It numbers 2<sup>16</sup> code points ranging from U+0000 to U+FFFF, of which:
     - E000 - F8FF  are reserved for private use (private use area).
     - D800  - DBFF and DC00 - DFFF  are the so-called  *high surrogates* and *low surrogates*, respectively, as explained below.
 
@@ -141,13 +141,13 @@ A BMB character takes one (the ASCII subset) or two code units to encode with UT
 As of Unicode 12.1, the BMP comprises the 163 blocks of characters including, yet far not limited to, all European alphabets, basic mathematics notations, etc.
 
 Surrogates for Encoding Outside BMP
-Code points 
+Code points above U+FFFF obviously take more than 16 bits to encod
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4MTE1OTk4LDUxNTQ0OTkxMSwtMTE4OD
-UzMjY3Miw3MDE0NjExNzAsMTQ5MzM1NzEwOCwxMDM0ODcxMDks
-LTgzMjgwNTQ4MiwyMDc1NzkxNDQ5LDEwNjc3MDU0ODIsMjAxOT
-AxNjI2MSwtNzczMjAzNTc5LDM5MjM3NDIyOSw5ODgxODc4MTks
-OTA5MTM5NzA4LC03MjE4OTI4MTksLTg1NjgxOTA5NSwtMTI5NT
-cyOTQyNiwtMjExMTMzOTYzMCwtNDE4NzQwOTQyLC00MDEzMTU5
-NTddfQ==
+eyJoaXN0b3J5IjpbMTAyOTc4NDY5OCw1MTU0NDk5MTEsLTExOD
+g1MzI2NzIsNzAxNDYxMTcwLDE0OTMzNTcxMDgsMTAzNDg3MTA5
+LC04MzI4MDU0ODIsMjA3NTc5MTQ0OSwxMDY3NzA1NDgyLDIwMT
+kwMTYyNjEsLTc3MzIwMzU3OSwzOTIzNzQyMjksOTg4MTg3ODE5
+LDkwOTEzOTcwOCwtNzIxODkyODE5LC04NTY4MTkwOTUsLTEyOT
+U3Mjk0MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0MiwtNDAxMzE1
+OTU3XX0=
 -->
