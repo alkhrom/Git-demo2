@@ -147,9 +147,10 @@ Code points from U+010000 to U+10FFFF (the Unicode top limit) obviously take mor
 With UTF-8 the encoding scheme works as described to output 3, 4 or 5 code units.
 
 With UTF-16 two code units become needed (16 bits, or 2 bytes, each), of which one comes as a high surrogate, the other as a low one. Each surrogate is 10 bits long, which produces 2<sup>10</sup> 2<sup>10</sup>=2<sup>20</sup> pair combinations strictly equal to the total number of code points to encode.
-In more detail, for a code point above U+
+In more detail, for a code point above U+10000 do the following to encode it in UTF-16:
+Subtract  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MjI3Nzg3MSw4MDQ2MzgzMDQsNTE1ND
+eyJoaXN0b3J5IjpbMTcxNDM5NzcwNyw4MDQ2MzgzMDQsNTE1ND
 Q5OTExLC0xMTg4NTMyNjcyLDcwMTQ2MTE3MCwxNDkzMzU3MTA4
 LDEwMzQ4NzEwOSwtODMyODA1NDgyLDIwNzU3OTE0NDksMTA2Nz
 cwNTQ4MiwyMDE5MDE2MjYxLC03NzMyMDM1NzksMzkyMzc0MjI5
