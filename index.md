@@ -151,15 +151,17 @@ In more detail, for a code point above U+10000 do the following to encode it in 
 
  1. Subtract 10000<sub>16</sub> from it to obtain a 20-bit number.
  2. Take a high surrogate to encode the first 10 bits and a low one for the remaining 10 (the UTF-16BE version) or vice versa (the UTF-16LE one).
-The SMP
-The Supplementary Multilinguial Plane (SMP) follows the BMP
+
+### The SMP
+
+The Supplementary Multilinguial Plane (SMP) follows the BMP to accommodate code points from 10000 to 1FFFF being three
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyODA1MDIxLDgwNDYzODMwNCw1MTU0ND
-k5MTEsLTExODg1MzI2NzIsNzAxNDYxMTcwLDE0OTMzNTcxMDgs
-MTAzNDg3MTA5LC04MzI4MDU0ODIsMjA3NTc5MTQ0OSwxMDY3Nz
-A1NDgyLDIwMTkwMTYyNjEsLTc3MzIwMzU3OSwzOTIzNzQyMjks
-OTg4MTg3ODE5LDkwOTEzOTcwOCwtNzIxODkyODE5LC04NTY4MT
-kwOTUsLTEyOTU3Mjk0MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0
-Ml19
+eyJoaXN0b3J5IjpbLTU3NzcyODAyMCw4MDQ2MzgzMDQsNTE1ND
+Q5OTExLC0xMTg4NTMyNjcyLDcwMTQ2MTE3MCwxNDkzMzU3MTA4
+LDEwMzQ4NzEwOSwtODMyODA1NDgyLDIwNzU3OTE0NDksMTA2Nz
+cwNTQ4MiwyMDE5MDE2MjYxLC03NzMyMDM1NzksMzkyMzc0MjI5
+LDk4ODE4NzgxOSw5MDkxMzk3MDgsLTcyMTg5MjgxOSwtODU2OD
+E5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5NjMwLC00MTg3NDA5
+NDJdfQ==
 -->
