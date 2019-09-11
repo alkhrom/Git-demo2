@@ -154,14 +154,14 @@ In more detail, for a code point above U+10000 do the following to encode it in 
 
 ### The SMP
 
-The Supplementary Multilinguial Plane (SMP) follows the BMP to accommodate code points from 10000 to 1FFFF being three
+The Supplementary Multilinguial Plane (SMP) follows the BMP to accommodate code points from 10000 to 1FFFF being the same 65 536 points in size.
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzcyODAyMCw4MDQ2MzgzMDQsNTE1ND
-Q5OTExLC0xMTg4NTMyNjcyLDcwMTQ2MTE3MCwxNDkzMzU3MTA4
-LDEwMzQ4NzEwOSwtODMyODA1NDgyLDIwNzU3OTE0NDksMTA2Nz
-cwNTQ4MiwyMDE5MDE2MjYxLC03NzMyMDM1NzksMzkyMzc0MjI5
-LDk4ODE4NzgxOSw5MDkxMzk3MDgsLTcyMTg5MjgxOSwtODU2OD
-E5MDk1LC0xMjk1NzI5NDI2LC0yMTExMzM5NjMwLC00MTg3NDA5
-NDJdfQ==
+eyJoaXN0b3J5IjpbOTA5MjUzNDMsODA0NjM4MzA0LDUxNTQ0OT
+kxMSwtMTE4ODUzMjY3Miw3MDE0NjExNzAsMTQ5MzM1NzEwOCwx
+MDM0ODcxMDksLTgzMjgwNTQ4MiwyMDc1NzkxNDQ5LDEwNjc3MD
+U0ODIsMjAxOTAxNjI2MSwtNzczMjAzNTc5LDM5MjM3NDIyOSw5
+ODgxODc4MTksOTA5MTM5NzA4LC03MjE4OTI4MTksLTg1NjgxOT
+A5NSwtMTI5NTcyOTQyNiwtMjExMTMzOTYzMCwtNDE4NzQwOTQy
+XX0=
 -->
