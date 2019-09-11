@@ -130,11 +130,11 @@ Right after ASCII had been extended onto fixed-width two-byte UCS-2 to cover 2<s
 
 ### The BMP
 
-The former USC-2 character set is now referred to as the Basic Multilinguial  Plane (BMP).
+The former USC-2 character set is now referred to as the Basic Multilinguial  Plane (BMP). It numbers 2<sup>16</sup> code points ranging from U+0000 to U+FFFF, of which:
 
-It numbers 2<sup>16</sup> code points ranging from U+0000 to U+FFFF, of which:
-    - E000 - F8FF  are reserved for private use (private use area).
-    - D800  - DBFF and DC00 - DFFF  are the so-called  *high surrogates* and *low surrogates*, respectively, as explained below.
+ - E000 - F8FF  are reserved for private use (private use area).
+ - D800  - DBFF and DC00 - DFFF  are the so-called  *high surrogates*
+   and *low surrogates*, respectively, as explained below.
 
 A BMB character takes one (the ASCII subset) or two code units to encode with UTF-8, and one unit - with UTF-16.
 
@@ -168,11 +168,11 @@ Other planes follow next numbered Plane 2 ... Plane 16, each 65 536 points in si
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MjkxNzk1NywtMjg5OTI3MTUsODYxOT
-c1ODYyLDgwNDYzODMwNCw1MTU0NDk5MTEsLTExODg1MzI2NzIs
-NzAxNDYxMTcwLDE0OTMzNTcxMDgsMTAzNDg3MTA5LC04MzI4MD
-U0ODIsMjA3NTc5MTQ0OSwxMDY3NzA1NDgyLDIwMTkwMTYyNjEs
-LTc3MzIwMzU3OSwzOTIzNzQyMjksOTg4MTg3ODE5LDkwOTEzOT
-cwOCwtNzIxODkyODE5LC04NTY4MTkwOTUsLTEyOTU3Mjk0MjZd
-fQ==
+eyJoaXN0b3J5IjpbMjEyMzA3ODc3MywtODkyOTE3OTU3LC0yOD
+k5MjcxNSw4NjE5NzU4NjIsODA0NjM4MzA0LDUxNTQ0OTkxMSwt
+MTE4ODUzMjY3Miw3MDE0NjExNzAsMTQ5MzM1NzEwOCwxMDM0OD
+cxMDksLTgzMjgwNTQ4MiwyMDc1NzkxNDQ5LDEwNjc3MDU0ODIs
+MjAxOTAxNjI2MSwtNzczMjAzNTc5LDM5MjM3NDIyOSw5ODgxOD
+c4MTksOTA5MTM5NzA4LC03MjE4OTI4MTksLTg1NjgxOTA5NV19
+
 -->
