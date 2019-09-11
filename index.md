@@ -135,14 +135,14 @@ It numbers 2<sup>16</sup> code points, of which:
     - D800  - DBFF and DC00 - DFFF  are the so-called  *high surrogates* and *low surrogates*, respectively, as explained below.
 
 A BMB character takes one (the ASCII subset) or two code units to encode with UTF-8, and two units - with UTF-16.
-
+As of Unicode 12.1, the BMP comprises the 163 blocks of characters
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1NDQ5OTExLC0xMTg4NTMyNjcyLDcwMT
-Q2MTE3MCwxNDkzMzU3MTA4LDEwMzQ4NzEwOSwtODMyODA1NDgy
-LDIwNzU3OTE0NDksMTA2NzcwNTQ4MiwyMDE5MDE2MjYxLC03Nz
-MyMDM1NzksMzkyMzc0MjI5LDk4ODE4NzgxOSw5MDkxMzk3MDgs
-LTcyMTg5MjgxOSwtODU2ODE5MDk1LC0xMjk1NzI5NDI2LC0yMT
-ExMzM5NjMwLC00MTg3NDA5NDIsLTQwMTMxNTk1NywxMjg3MDEz
-MDE4XX0=
+eyJoaXN0b3J5IjpbLTUxMTA5ODE1Miw1MTU0NDk5MTEsLTExOD
+g1MzI2NzIsNzAxNDYxMTcwLDE0OTMzNTcxMDgsMTAzNDg3MTA5
+LC04MzI4MDU0ODIsMjA3NTc5MTQ0OSwxMDY3NzA1NDgyLDIwMT
+kwMTYyNjEsLTc3MzIwMzU3OSwzOTIzNzQyMjksOTg4MTg3ODE5
+LDkwOTEzOTcwOCwtNzIxODkyODE5LC04NTY4MTkwOTUsLTEyOT
+U3Mjk0MjYsLTIxMTEzMzk2MzAsLTQxODc0MDk0MiwtNDAxMzE1
+OTU3XX0=
 -->
